@@ -10,9 +10,9 @@
 
 	chosen {
 		zmk,kscan = &kscan0;
-		zmk,matrix_transform = &default_transform;
+		//zmk,matrix_transform = &default_transform;
 	};
-
+/*
 	default_transform: keymap_transform_0 {
 		compatible = "zmk,matrix-transform";
 		columns = <11>;
@@ -47,7 +47,7 @@
 
 		>;
 	};
-
+*/
 	kscan0: kscan {
 		compatible = "zmk,kscan-gpio-direct";
 		label = "KSCAN";
