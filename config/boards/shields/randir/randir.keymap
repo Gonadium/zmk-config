@@ -16,7 +16,7 @@
  };
  
 
-{
+/ {
     combos {
         compatible = "zmk,combos";
 		
