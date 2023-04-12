@@ -15,15 +15,15 @@
  };
 
 / {
-	/*
+	
 	combos {
 		compatible = "zmk,combos";
 		combo_A {
-			timeout-ms = <50>;
+			timeout-ms = <500>;
 			key-positions = <4 9>;
 			bindings = <&kp LS(A)>;
 			};
-		};*/
+		};
 
 
    
