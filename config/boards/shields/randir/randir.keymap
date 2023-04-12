@@ -18,12 +18,18 @@
 	
 	combos {
 		compatible = "zmk,combos";
-		combo_A {timeout-ms = <500>;key-positions = <4 9>;bindings = <&kp LS(A)>;}
-		combo_B {timeout-ms = <500>;key-positions = <4 1>;bindings = <&kp LS(A)>;}
-		combo_C {timeout-ms = <500>;key-positions = <4 2>;bindings = <&kp LS(A)>;}
-		combo_D {timeout-ms = <500>;key-positions = <4 3>;bindings = <&kp LS(A)>;}
-		combo_E {timeout-ms = <500>;key-positions = <4 5>;bindings = <&kp LS(A)>;}
-		combo_F {timeout-ms = <500>;key-positions = <4 6>;bindings = <&kp LS(A)>;}
+		combo_A {
+			timeout-ms = <500>;
+			key-positions = <4 9>;
+			bindings = <&kp LS(A)>;
+			};
+		combo_B {
+			timeout-ms = <500>;
+			key-positions = <4 10>;
+			bindings = <&kp LS(A)>;
+			};
+		};
+
 
    
 	keymap {
