@@ -15,6 +15,7 @@
  };
 
 / {
+	/*
 	combos {
 		compatible = "zmk,combos";
 		combo_A {
@@ -22,7 +23,7 @@
 			key-positions = <4 9>;
 			bindings = <&kp LS(A)>;
 			};
-		};
+		};*/
 
 
    
