@@ -15,74 +15,25 @@
  };
 
 / {
-       combos {
-        compatible = "zmk,combos";
-		
-//								
-//		     	┌────┬────┬────┐
-//		   ┌────┤ 1  |	2 | 3  | 
-//	       | 0	├────┼────┼────┤
-//	   ┌───┴┬───┤ 5  | 6  | 7  |
-//	   | 4  |	└────┴──┬─┴──┬─┴──┐ 
-//	   └────┘		    | 8  | 9  ├────┐
-//					    └────┴────┤ 10 |
-//							      └────┘
-// COMBOS LETTERS
-
-		combo_A {			timeout-ms = <50>;	key-positions = <4 9>;			bindings = <&kp LS(A) >;};
-		combo_B {			timeout-ms = <50>;	key-positions = <0 1 9>;		bindings = <&kp LS(B) >;};
-		combo_b {			timeout-ms = <50>;	key-positions = <0 1>;			bindings = <&kp B >;};
-		combo_C {			timeout-ms = <50>;	key-positions = <5 7 9>;		bindings = <&kp LS(C) >;};
-		combo_c {			timeout-ms = <50>;	key-positions = <5 7>;			bindings = <&kp C >;};
-		combo_D {			timeout-ms = <50>;	key-positions = <4 7 9>;		bindings = <&kp LS(D) >;};
-		combo_d {			timeout-ms = <50>;	key-positions = <4 7>;			bindings = <&kp D >;};
-		combo_E {			timeout-ms = <50>;	key-positions = <7 9>;			bindings = <&kp LS(E) >;};
-		combo_F {			timeout-ms = <50>;	key-positions = <1 3 9>;		bindings = <&kp LS(F) >;};
-		combo_f {			timeout-ms = <50>;	key-positions = <1 3>;			bindings = <&kp F >;};
-		combo_G {			timeout-ms = <50>;	key-positions = <0 3 9>;		bindings = <&kp LS(G) >;};
-		combo_g {			timeout-ms = <50>;	key-positions = <0 3>;			bindings = <&kp G >;};
-		combo_H {			timeout-ms = <50>;	key-positions = <6 7 9>;		bindings = <&kp LS(H) >;};
-		combo_h {			timeout-ms = <50>;	key-positions = <6 7>;			bindings = <&kp H >;};
-		combo_I {			timeout-ms = <50>;	key-positions = <3 9>;			bindings = <&kp LS(I) >;};
-		combo_J {			timeout-ms = <50>;	key-positions = <2 4 9>;		bindings = <&kp LS(J) >;};
-		combo_j {			timeout-ms = <50>;	key-positions = <2 4>;			bindings = <&kp J >;};
-		combo_K {			timeout-ms = <50>;	key-positions = <3 5 9>;		bindings = <&kp LS(K) >;};
-		combo_k {			timeout-ms = <50>;	key-positions = <3 5>;			bindings = <&kp K >;};
-		combo_L {			timeout-ms = <50>;	key-positions = <4 5 9>;		bindings = <&kp LS(L) >;};
-		combo_l {			timeout-ms = <50>;	key-positions = <4 5>;			bindings = <&kp L >;};
-		combo_M {			timeout-ms = <50>;	key-positions = <0 7 9>;		bindings = <&kp LS(M) >;};
-		combo_m {			timeout-ms = <50>;	key-positions = <0 7>;			bindings = <&kp M >;};
-		combo_N {			timeout-ms = <50>;	key-positions = <2 9>;			bindings = <&kp LS(N) >;};
-		combo_O {			timeout-ms = <50>;	key-positions = <5 9>;			bindings = <&kp LS(O) >;};
-		combo_P {			timeout-ms = <50>;	key-positions = <1 2 9>;		bindings = <&kp LS(P) >;};
-		combo_p {			timeout-ms = <50>;	key-positions = <1 2>;			bindings = <&kp P >;};
-//		combo_Qu {			timeout-ms = <50>;	key-positions = <4 6 9>;		bindings = <&kp LS(Q)>,<&kp U >;};
-//		combo_qu {			timeout-ms = <50>;	key-positions = <4 6>;			bindings = <&kp Q>,<&kp U >;};
-		combo_R {			timeout-ms = <50>;	key-positions = <0 9>;			bindings = <&kp LS(R) >;};
-		combo_S {			timeout-ms = <50>;	key-positions = <1 9>;			bindings = <&kp LS(S) >;};
-		combo_T {			timeout-ms = <50>;	key-positions = <6 9>;			bindings = <&kp LS(T) >;};
-		combo_U {			timeout-ms = <50>;	key-positions = <5 6 9>;		bindings = <&kp LS(U) >;};
-		combo_u {			timeout-ms = <50>;	key-positions = <5 6>;			bindings = <&kp U >;};
-		combo_V {			timeout-ms = <50>;	key-positions = <1 7 9>;		bindings = <&kp LS(V) >;};
-		combo_v {			timeout-ms = <50>;	key-positions = <1 7>;			bindings = <&kp V >;};
-		combo_W {			timeout-ms = <50>;	key-positions = <3 4 9>;		bindings = <&kp LS(W) >;};
-		combo_w {			timeout-ms = <50>;	key-positions = <3 4>;			bindings = <&kp W >;};
-		combo_X {			timeout-ms = <50>;	key-positions = <0 6 9>;		bindings = <&kp LS(X) >;};
-		combo_x {			timeout-ms = <50>;	key-positions = <0 6>;			bindings = <&kp X >;};
-		combo_Y {			timeout-ms = <50>;	key-positions = <2 3 9>;		bindings = <&kp LS(Y) >;};
-		combo_y {			timeout-ms = <50>;	key-positions = <2 3>;			bindings = <&kp Y >;};
-		combo_Z {			timeout-ms = <50>;	key-positions = <0 2 9>;		bindings = <&kp LS(Z) >;};
-		combo_z {			timeout-ms = <50>;	key-positions = <0 2>;			bindings = <&kp Z >;};
-	};
-   
-   keymap {
-	compatible = "zmk,keymap";
-	default_layer {
-		bindings = <
-			&kp R	&kp S	&kp N	&kp I
-			&kp A	&kp O	&kp T	&kp E 
-			&none	&kp SPACE	&none			
-			>;
+	combos {
+		compatible = "zmk,combos";
+		combo_A {
+			timeout-ms = <50>;
+			key-positions = <4 9>;
+			bindings = <&kp LS(A)>;
+			};
 		};
-    };
+
+
+   
+	keymap {
+		compatible = "zmk,keymap";
+		default_layer {
+			bindings = <
+				&kp R	&kp S	&kp N	&kp I
+				&kp A	&kp O	&kp T	&kp E 
+				&none	&kp SPACE	&none			
+				>;
+			};
+		};
 };
