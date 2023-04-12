@@ -17,14 +17,14 @@
 */
 
 / {
-       keymap {
-		compatible = "zmk,keymap";
-		default_layer {
-        bindings = <
-		&kp R	&kp S	&kp N	&kp I
-        &kp A	&kp O	&kp T	&kp E 
-		&none	&kp SPACE	&none			
-        >;
-        };
+   keymap {
+	compatible = "zmk,keymap";
+	default_layer {
+		bindings = <
+			&kp R	&kp S	&kp N	&kp I
+			&kp A	&kp O	&kp T	&kp E 
+			&none	&kp SPACE	&none			
+			>;
+		};
     };
 };
