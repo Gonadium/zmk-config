@@ -21,7 +21,7 @@
 		combo_A {
 			timeout-ms = <500>;
 			key-positions = <4 9>;
-			bindings = <&kp LS(A)>;
+			bindings = <&kp LS(A) &kp B>;
 			};
 		combo_B {
 			timeout-ms = <500>;
