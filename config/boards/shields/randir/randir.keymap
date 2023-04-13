@@ -109,8 +109,8 @@
 			timeout-ms = <500>;
 			key-positions = <3 4>;
 			bindings = <&kp W >;
-			};"
-"
+			};
+
 
 //		UPPERCASE LETTERS
 		combo_R {		//		R
