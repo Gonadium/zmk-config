@@ -25,6 +25,56 @@
 			key-positions = <1 2>;
 			bindings = <&kp P >;
 			};
+		combo_b {		//		b
+			timeout-ms = <500>;
+			key-positions = <0 1>;
+			bindings = <&kp B >;
+			};
+		combo_l {		//		l
+			timeout-ms = <500>;
+			key-positions = <4 5>;
+			bindings = <&kp L >;
+			};
+		combo_g {		//		g
+			timeout-ms = <500>;
+			key-positions = <0 3>;
+			bindings = <&kp G >;
+			};
+		combo_z {		//		z
+			timeout-ms = <500>;
+			key-positions = <0 2>;
+			bindings = <&kp Z >;
+			};
+		combo_qu {		//		qu
+			timeout-ms = <500>;
+			key-positions = <4 6>;
+			bindings = <&kp QU >;
+			};
+		combo_x {		//		x
+			timeout-ms = <500>;
+			key-positions = <0 6>;
+			bindings = <&kp X >;
+			};
+		combo_v {		//		v
+			timeout-ms = <500>;
+			key-positions = <1 7>;
+			bindings = <&kp V >;
+			};
+		combo_m {		//		m
+			timeout-ms = <500>;
+			key-positions = <0 7>;
+			bindings = <&kp M >;
+			};
+		combo_u {		//		u
+			timeout-ms = <500>;
+			key-positions = <5 6>;
+			bindings = <&kp U >;
+			};
+		combo_y {		//		y
+			timeout-ms = <500>;
+			key-positions = <2 3>;
+			bindings = <&kp Y >;
+			};
 
 		};
 
