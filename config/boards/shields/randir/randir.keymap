@@ -136,7 +136,7 @@
 			key-positions = <3 9>;
 			bindings = <&kp LS(I) >;
 			};
-		combo_P {		//		P
+		combo_Upper_P {		//		P
 			timeout-ms = <500>;
 			key-positions = <1 2 9>;
 			bindings = <&kp LS(P) >;
