@@ -48,7 +48,7 @@
 		combo_qu {		//		qu
 			timeout-ms = <500>;
 			key-positions = <4 6>;
-			bindings = <&kp QU >;
+			bindings = <&kp Q &kp U >;
 			};
 		combo_x {		//		x
 			timeout-ms = <500>;
