@@ -149,7 +149,7 @@
 		combo_ALTPSCRN		{timeout-ms = <500>;	key-positions = <2 6 10>;		bindings = <&kp LA(PRINTSCREEN) >;};
 		combo_CTRLGUI		{timeout-ms = <500>;	key-positions = <0 2 4 6>;		bindings = <&kp LC(LEFT_WIN) >;};
 		combo_GUIALT		{timeout-ms = <500>;	key-positions = <2 3 6 7>;		bindings = <&kp LA(LEFT_WIN) >;};
-//		combo_FN			{timeout-ms = <500>;	key-positions = <1 2 3 10>;	bindings = <&kp FN >;};
+//		combo_FN			{timeout-ms = <500>;	key-positions = <1 2 3 10>;		bindings = <&kp FN >;};
 
 //		WORD PARTS
 		combo_able			{timeout-ms = <500>;	key-positions = <0 1 4 5 7>;	bindings = <&kp A &kp B &kp L &kp E >;};
@@ -252,8 +252,7 @@
 		combo_when			{timeout-ms = <500>;	key-positions = <2 3 4 6 7>;	bindings = <&kp W &kp H &kp E &kp N >;};
 		combo_with			{timeout-ms = <500>;	key-positions = <3 4 6 7>;		bindings = <&kp W &kp I &kp T &kp H >;};
 		combo_your			{timeout-ms = <500>;	key-positions = <0 5 6 9>;		bindings = <&kp Y &kp O &kp U &kp R >;};
-
-
+		
 		};
 
 
