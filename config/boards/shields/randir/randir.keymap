@@ -59,7 +59,7 @@
 		combo_upper_N		{timeout-ms = <500>;	key-positions = <2 9>;			bindings = <&kp LS(N) >;};
 		combo_upper_O		{timeout-ms = <500>;	key-positions = <5 9>;			bindings = <&kp LS(O) >;};
 		combo_upper_P		{timeout-ms = <500>;	key-positions = <1 2 9>;		bindings = <&kp LS(P) >;};
-		combo_upper_Qu		{timeout-ms = <500>;	key-positions = <4 6 9>;		bindings = <&kp LS(Q) &kp U) >;};
+		combo_upper_Qu		{timeout-ms = <500>;	key-positions = <4 6 9>;		bindings = <&kp LS(Q) &kp U >;};
 		combo_upper_R		{timeout-ms = <500>;	key-positions = <0 9>;			bindings = <&kp LS(R) >;};
 		combo_upper_S		{timeout-ms = <500>;	key-positions = <1 9>;			bindings = <&kp LS(S) >;};
 		combo_upper_T		{timeout-ms = <500>;	key-positions = <6 9>;			bindings = <&kp LS(T) >;};
