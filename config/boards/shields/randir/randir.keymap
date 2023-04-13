@@ -23,11 +23,7 @@
 		compatible = "zmk,combos";
 		
 //		LOWERCASE LETTERS
-		combo_p {		//				p
-			timeout-ms = <500>;
-			key-positions = <1 2>;
-			bindings = <&kp P >;
-			};
+		combo_p {timeout-ms = <500>;key-positions = <1 2>;bindings = <&kp P >;};
 		combo_b {		//				b
 			timeout-ms = <500>;
 			key-positions = <0 1>;
