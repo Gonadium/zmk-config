@@ -18,16 +18,14 @@
 	
 	combos {
 		compatible = "zmk,combos";
-		combo_A {
+		
+//		LOWERCASE LETTERS
+		combo_p {		//		p
 			timeout-ms = <500>;
-			key-positions = <4 9>;
-			bindings = <&kp LS(A) &kp B>;
+			key-positions = <1 2>;
+			bindings = <&kp P >;
 			};
-		combo_B {
-			timeout-ms = <500>;
-			key-positions = <4 10>;
-			bindings = <&kp LS(A)>;
-			};
+
 		};
 
 
