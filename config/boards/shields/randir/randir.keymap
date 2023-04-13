@@ -4,14 +4,12 @@
  * SPDX-License-Identifier: MIT
  */
 
-CONFIG_ZMK_COMBO_MAX_PRESSED_COMBOS=1
-CONFIG_ZMK_COMBO_MAX_COMBOS_PER_KEY=127
-CONFIG_ZMK_COMBO_MAX_KEYS_PER_COMBO=10
+
 
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-//#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/bt.h>
 
 
 &sk {
