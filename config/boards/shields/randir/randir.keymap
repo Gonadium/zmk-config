@@ -140,7 +140,7 @@
 			timeout-ms = <500>;
 			key-positions = <1 2 9>;
 			bindings = <&kp LS(P) >;
-			};/*
+			};
 		combo_B {		//		B
 			timeout-ms = <500>;
 			key-positions = <0 1 9>;
@@ -246,7 +246,7 @@
 			key-positions = <3 4 9>;
 			bindings = <&kp LS(W) >;
 			};
-*/
+
 
 		};
 
