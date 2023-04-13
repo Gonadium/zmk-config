@@ -79,7 +79,7 @@
 		combo_SEMICOLON		{timeout-ms = <500>;	key-positions = <2 7 9>;		bindings = <&kp SEMICOLON >;};						//	;
 		combo_APOSTROPHE	{timeout-ms = <500>;	key-positions = <1 4>;			bindings = <&kp APOSTROPHE >;};						//	'
 		combo_DOUBLE_QUOTES	{timeout-ms = <500>;	key-positions = <1 4 9>;		bindings = <&kp DOUBLE_QUOTES >;};					//	"
-		combo_ELIPSES		{timeout-ms = <500>;	key-positions = <2 7 10>;		bindings = <&kp DOT &kp DOT &kp DOT &kp SPACE >;};	//	...
+		combo_ELIPSES		{timeout-ms = <500>;	key-positions = <0 5 10>;		bindings = <&kp DOT &kp DOT &kp DOT &kp SPACE >;};	//	...
 		combo_GRAVE			{timeout-ms = <500>;	key-positions = <1 4 10>;		bindings = <&kp GRAVE >;};							//	`
 //		combo_°				{timeout-ms = <500>;	key-positions = <0 5 10>;		bindings = <&kp ° >;};
 
@@ -98,8 +98,8 @@
 		combo_PIPE			{timeout-ms = <500>;	key-positions = <1 6 10>;		bindings = <&kp PIPE >;};							//	|
 		combo_LEFT_BRACKET	{timeout-ms = <500>;	key-positions = <0 1 10>;		bindings = <&kp LEFT_BRACKET >;};					//	[
 		combo_RIGHT_BRACKET	{timeout-ms = <500>;	key-positions = <2 3 10>;		bindings = <&kp RIGHT_BRACKET >;};					//	]
-		combo_LPAR			{timeout-ms = <500>;	key-positions = <4 5 10>;		bindings = <&kp LPAR >;};							//	(
-		combo_RPAR			{timeout-ms = <500>;	key-positions = <6 7 10>;		bindings = <&kp RPAR >;};							//	)
+		combo_LPAR			{timeout-ms = <500>;	key-positions = <4 5 10>;		bindings = <&kp LEFT_PARENTHESIS >;};				//	(
+		combo_RPAR			{timeout-ms = <500>;	key-positions = <6 7 10>;		bindings = <&kp RIGHT_PARENTHESIS >;};				//	)
 		combo_LEFT_BRACE	{timeout-ms = <500>;	key-positions = <0 2 10>;		bindings = <&kp LEFT_BRACE >;};						//	{
 		combo_RIGHT_BRACE	{timeout-ms = <500>;	key-positions = <1 3 10>;		bindings = <&kp RIGHT_BRACE >;};					//	}
 		combo_LESS_THAN		{timeout-ms = <500>;	key-positions = <4 6 10>;		bindings = <&kp LESS_THAN >;};						//	<
