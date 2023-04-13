@@ -75,8 +75,8 @@
 		combo_EXCLAMATION	{timeout-ms = <500>;	key-positions = <3 6 9>;		bindings = <&kp EXCLAMATION >;};					//	!
 		combo_DOT			{timeout-ms = <500>;	key-positions = <0 5>;			bindings = <&kp DOT >;};							//	.
 		combo_COMMA			{timeout-ms = <500>;	key-positions = <2 7>;			bindings = <&kp COMMA >;};							//	,
-		combo_COLON			{timeout-ms = <500>;	key-positions = <0 5 9>;		bindings = <&kp COLON >};							//	:
-		combo_SEMICOLON		{timeout-ms = <500>;	key-positions = <2 7 9>;		bindings = <&kp SEMICOLON >};						//	;
+		combo_COLON			{timeout-ms = <500>;	key-positions = <0 5 9>;		bindings = <&kp COLON >;};							//	:
+		combo_SEMICOLON		{timeout-ms = <500>;	key-positions = <2 7 9>;		bindings = <&kp SEMICOLON >;};						//	;
 		combo_APOSTROPHE	{timeout-ms = <500>;	key-positions = <1 4>;			bindings = <&kp APOSTROPHE >;};						//	'
 		combo_DOUBLE_QUOTES	{timeout-ms = <500>;	key-positions = <1 4 9>;		bindings = <&kp DOUBLE_QUOTES >;};					//	"
 		combo_ELIPSES		{timeout-ms = <500>;	key-positions = <2 7 10>;		bindings = <&kp DOT &kp DOT &kp DOT &kp SPACE >;};	//	...
@@ -93,7 +93,7 @@
 		combo_ESCAPE		{timeout-ms = <500>;	key-positions = <1 2 3 9>;		bindings = <&kp ESCAPE >;};
 
 //		SYMBOLS
-		combo_SLASH			{timeout-ms = <500>;	key-positions = <1 6 9>;		bindings = <&kp SLASH >};							//	/
+		combo_SLASH			{timeout-ms = <500>;	key-positions = <1 6 9>;		bindings = <&kp SLASH >;};							//	/
 		combo_BACKSLASH		{timeout-ms = <500>;	key-positions = <1 6>;			bindings = <&kp BACKSLASH >;};						//	\'
 		combo_PIPE			{timeout-ms = <500>;	key-positions = <1 6 10>;		bindings = <&kp PIPE >;};							//	|
 		combo_LEFT_BRACKET	{timeout-ms = <500>;	key-positions = <0 1 10>;		bindings = <&kp LEFT_BRACKET >;};					//	[
@@ -130,9 +130,9 @@
 		combo_0				{timeout-ms = <500>;	key-positions = <5 6 10>;		bindings = <&kp NUMBER_0 >;};
 
 //		NAVIGATION
-		combo_PAGE_UP		{timeout-ms = <500>;	key-positions = <0 4 9>;		bindings = <&kp PAGE_UP >};
+		combo_PAGE_UP		{timeout-ms = <500>;	key-positions = <0 4 9>;		bindings = <&kp PAGE_UP >;};
 		combo_PAGE_DOWN		{timeout-ms = <500>;	key-positions = <0 4 10>;		bindings = <&kp PAGE_DOWN >;};
-		combo_HOME			{timeout-ms = <500>;	key-positions = <1 5 9>;		bindings = <&kp HOME >};
+		combo_HOME			{timeout-ms = <500>;	key-positions = <1 5 9>;		bindings = <&kp HOME >;};
 		combo_END			{timeout-ms = <500>;	key-positions = <1 5 10>;		bindings = <&kp END >;};
 		
 //		MODIFIERS
@@ -153,7 +153,7 @@
 
 
 
-//		combo_ch		{timeout-ms = <500>;	key-positions = <5 6 7 9>;	bindings = <&kp CH >};
+//		combo_ch		{timeout-ms = <500>;	key-positions = <5 6 7 9>;	bindings = <&kp CH >;};
 //		combo_uch		{timeout-ms = <500>;	key-positions = <5 6 7 10>;	bindings = <&kp UCH >;};
 		};
 
