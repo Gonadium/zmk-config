@@ -204,7 +204,6 @@
 		combo_ive			{timeout-ms = <500>;	key-positions = <1 3 7 10>;		bindings = <&kp I &kp V &kp E >;};
 		combo_ld			{timeout-ms = <500>;	key-positions = <4 5 7 9>;		bindings = <&kp L &kp D >;};
 		combo_less			{timeout-ms = <500>;	key-positions = <1 2 7 10>;		bindings = <&kp L &kp E &kp S &kp S >;};
-		combo_less			{timeout-ms = <500>;	key-positions = <1 6 7 10>;		bindings = <&kp L &kp E &kp S &kp S >;};
 		combo_lly			{timeout-ms = <500>;	key-positions = <2 3 4 5 9>;	bindings = <&kp L &kp L &kp Y >;};
 		combo_ly			{timeout-ms = <500>;	key-positions = <2 3 4 5>;		bindings = <&kp L &kp Y >;};
 		combo_ment			{timeout-ms = <500>;	key-positions = <0 2 6 7>;		bindings = <&kp M &kp E &kp N &kp T >;};
