@@ -4,6 +4,11 @@
  * SPDX-License-Identifier: MIT
  */
 
+CONFIG_ZMK_COMBO_MAX_PRESSED_COMBOS=1
+CONFIG_ZMK_COMBO_MAX_COMBOS_PER_KEY=127
+CONFIG_ZMK_COMBO_MAX_KEYS_PER_COMBO=10
+
+
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 //#include <dt-bindings/zmk/bt.h>
@@ -132,12 +137,12 @@
 			timeout-ms = <500>;
 			key-positions = <3 9>;
 			bindings = <&kp LS(I) >;
-			};
+			};/*
 		combo_P {		//		P
 			timeout-ms = <500>;
 			key-positions = <1 2 9>;
 			bindings = <&kp LS(P) >;
-			};/*
+			};
 		combo_B {		//		B
 			timeout-ms = <500>;
 			key-positions = <0 1 9>;
