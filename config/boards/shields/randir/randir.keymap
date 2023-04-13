@@ -111,7 +111,7 @@
 			bindings = <&kp W >;
 			};
 
-/*
+
 //		UPPERCASE LETTERS
 		combo_R {		//		R
 			timeout-ms = <500>;
@@ -176,13 +176,13 @@
 		combo_M {		//		M
 			timeout-ms = <500>;
 			key-positions = <0 7 9>;
-			bindings = <&kp LS(M >;
+			bindings = <&kp LS(M) >;
 			};
 		combo_A {			//		A
 			timeout-ms = <500>;
 			key-positions = <4 9>;
 			bindings = <&kp LS(A) >;
-			};
+			};/*
 		combo_O {			//		O
 			timeout-ms = <500>;
 			key-positions = <5 9>;
