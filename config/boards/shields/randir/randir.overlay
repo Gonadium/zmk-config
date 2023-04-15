@@ -29,6 +29,12 @@
 //					    └────┴────┤ 10 |
 //							      └────┘
 //
+//		r 	s 	n 	i 
+//		a 	o 	t 	e 
+
+
+// 		s	n	a	t
+//		r 	i 	o 	e 
 
 
 		RC(0,0)		RC(0,1)		RC(0,2)		RC(0,3)
@@ -41,18 +47,19 @@
 		compatible = "zmk,kscan-gpio-direct";
 		label = "KSCAN";
 		input-gpios
-		= <&pro_micro 6  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	RC(0,0)		┬	Pinky	P1 (inner)
-		, <&pro_micro 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	RC(0,4)		┴	Pinky	P2 (outer)
-		, <&pro_micro 5  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	RC(0,1)		┬	Ring	R1
-		, <&pro_micro 7  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	RC(0,5)		┴	Ring	R2
-		, <&pro_micro 4  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	RC(0,2)		┬	Middle	M1
-		, <&pro_micro 8  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	RC(0,6)		┴	Middle	M2
-		, <&pro_micro 0  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	RC(0,3)		┬	Index	I1
-		, <&pro_micro 9  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	RC(0,7)		┴	Index	I2
-		, <&pro_micro 18 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	RC(0,8)		┬	Thumb Encoder SW	EncSW
-		, <&pro_micro 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	RC(0,9)		├	Thumb 	T1 (inner)
-		, <&pro_micro 16 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	RC(0,10)	┴	Thumb	T2 (outer)
+		= <&pro_micro 4  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	r
+		, <&pro_micro 6  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	s
+		, <&pro_micro 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	n
+		, <&pro_micro 8  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	i
+		, <&pro_micro 7  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	t
+		, <&pro_micro 5  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	a
+		, <&pro_micro 0  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	o
+		, <&pro_micro 9  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	e
+		, <&pro_micro 18 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	EncSW
+		, <&pro_micro 16 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	space
+		, <&pro_micro 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	?
 		;
+
 	};
 
 };
