@@ -263,7 +263,7 @@
 			bindings = <
 				&kp R	&kp S	&kp N	&kp I
 				&kp A	&kp O	&kp T	&kp E 
-				&X	&kp SPACE	&Z			
+				&kp X	&kp SPACE	&kp Z			
 				>;
 			};
 		};
