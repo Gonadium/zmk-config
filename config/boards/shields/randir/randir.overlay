@@ -31,11 +31,8 @@
 //
 //		r 	s 	n 	i 
 //		a 	o 	t 	e 
+// 				enc spc	?
 
-
-// 		r	s	n 	i
-//		a 	o 	t 	e  x
-//
 		RC(0,0)		RC(0,1)		RC(0,2)		RC(0,3)
 		RC(0,4)		RC(0,5)		RC(0,6)		RC(0,7)
 								RC(0,8)		RC(0,9)		RC(0,10)
@@ -45,7 +42,7 @@
 	kscan0: kscan {
 		compatible = "zmk,kscan-gpio-direct";
 		label = "KSCAN";
-		input-gpios
+		input-gpios // WHY the living fuck it has to be in this order to work is beyond me
 		= <&pro_micro 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	r
 		, <&pro_micro 5  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	a
 		, <&pro_micro 4  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	n
@@ -74,7 +71,7 @@
 	joystickx: joystickx {
         compatible = "joystick";
         label = "JOYSTICKX";
-        io-channels = <&adc 21>;
+        io-channels = <&adc 21>; // this is on the Nice!Nano v2 (promicro) analog pin 20
         status = "okay";
         resolution = <512>;
         frequency = <50>;
@@ -85,7 +82,7 @@
 	joysticky: joysticky {
         compatible = "joystick";
         label = "JOYSTICKY";
-        io-channels = <&adc 20>;
+        io-channels = <&adc 20>; // this is on the Nice!Nano v2 (promicro) analog pin 20
         status = "okay";
         resolution = <512>;
         frequency = <50>;
@@ -100,9 +97,3 @@
     };
 };
 
-// NEED TO SCAN FOR ENCODER
-// insert code here
-
-
-// NEED TO SCAN FOR JOYSTICK
-// insert code here
