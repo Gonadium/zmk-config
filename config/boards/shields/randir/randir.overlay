@@ -70,11 +70,11 @@
         status = "okay";
     };
 	
-	/*
+	
 	joystickx: joystickx {
         compatible = "joystick";
         label = "JOYSTICKX";
-        io-channels = <&adc 0>;
+        io-channels = <&adc 21>;
         status = "okay";
         resolution = <512>;
         frequency = <50>;
@@ -85,18 +85,18 @@
 	joysticky: joysticky {
         compatible = "joystick";
         label = "JOYSTICKY";
-        io-channels = <&adc 0>;
+        io-channels = <&adc 20>;
         status = "okay";
         resolution = <512>;
         frequency = <50>;
         min_on = <256>;
         reverse;
     };
-	*/
+	
 	
 	sensors {
         compatible = "zmk,keymap-sensors";
-        sensors = <&left_encoder>;
+        sensors = <&left_encoder &joystickx &joysticky>;
     };
 };
 
