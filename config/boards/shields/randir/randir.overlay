@@ -69,6 +69,35 @@
         resolution = <4>;
         status = "okay";
     };
+	
+	/*
+	joystickx: joystickx {
+        compatible = "joystick";
+        label = "JOYSTICKX";
+        io-channels = <&adc 0>;
+        status = "okay";
+        resolution = <512>;
+        frequency = <50>;
+        min_on = <256>;
+        reverse;
+    };
+	
+	joysticky: joysticky {
+        compatible = "joystick";
+        label = "JOYSTICKY";
+        io-channels = <&adc 0>;
+        status = "okay";
+        resolution = <512>;
+        frequency = <50>;
+        min_on = <256>;
+        reverse;
+    };
+	*/
+	
+	sensors {
+        compatible = "zmk,keymap-sensors";
+        sensors = <&left_encoder>;
+    };
 };
 
 // NEED TO SCAN FOR ENCODER
