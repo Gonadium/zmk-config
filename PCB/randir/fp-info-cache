@@ -1,4 +1,4 @@
-1381382207281323
+1386427555252935
 PCM_Mounting_Keyboard_Stabilizer
 Stabilizer_Cherry_MX_2.00u
 Cherry MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u
@@ -5656,6 +5656,13 @@ pimoroni_trackball
 0
 0
 footprints3
+power_sw_toby
+
+
+0
+3
+2
+footprints3
 promicro-pretty
 Solder-jumper reversible Pro Micro footprint
 promicro ProMicro reversible solder jumper
@@ -5676,6 +5683,13 @@ Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.c
 0
 14
 3
+footprints3
+reset_sw_Toby
+
+
+0
+2
+1
 footprints3
 spacer_m2
 Mounting Hole 2.2mm, no annular, M2
@@ -5760,3 +5774,10 @@ nice_nano_Toby
 0
 173
 27
+nice-nano-kicad-master
+nice_nano_Toby2
+
+
+0
+433
+29
