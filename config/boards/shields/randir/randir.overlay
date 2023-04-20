@@ -58,7 +58,7 @@
 
 	};
 	
-	left_encoder: encoder_left {
+	x_encoder: encoder_x {
         compatible = "alps,ec11";
         label = "LEFT_ENCODER";
         a-gpios = <&pro_micro 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
@@ -71,7 +71,7 @@
 	joystickx: joystickx {
         compatible = "joystick";
         label = "JOYSTICKX";
-        io-channels = <&adc 3>; // this is on the Nice!Nano v2 (promicro) analog pin 20
+        io-channels = <&adc 3>; // this is on the Nice!Nano v2 (promicro) analog pin 21
         status = "okay";
         resolution = <512>;
         frequency = <50>;
@@ -93,7 +93,7 @@
 	
 	sensors {
         compatible = "zmk,keymap-sensors";
-        sensors = <&left_encoder &joystickx >; //&joysticky>;
+        sensors = <&x_encoder &joystickx >; //&joysticky>;
     };
 };
 
