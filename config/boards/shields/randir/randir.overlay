@@ -78,17 +78,17 @@
         min_on = <256>;
         reverse;
     };
-	/*
+	
 	joysticky: joysticky {
         compatible = "joystick";
         label = "JOYSTICKY";
-        io-channels = <&adc 20>; // this is on the Nice!Nano v2 (promicro) analog pin 20
+        io-channels = <&adc 3>; // this is on the Nice!Nano v2 (promicro) analog pin 20
         status = "okay";
         resolution = <512>;
         frequency = <50>;
         min_on = <256>;
         reverse;
-    };*/
+    };
 	
 	
 	sensors {

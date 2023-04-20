@@ -268,7 +268,11 @@
 			
 			// How do I implement the joystick?
 <<<<<<< HEAD
+<<<<<<< HEAD
 			/* eg. For joystickY - Above read 128 press UP, read below -128 t*/
+=======
+			/* eg. For joystickY - Above read 128 press UP, read below -128 t
+>>>>>>> parent of 06bf42b (Update randir.keymap)
 =======
 			/* eg. For joystickY - Above read 128 press UP, read below -128 t
 >>>>>>> parent of 06bf42b (Update randir.keymap)
