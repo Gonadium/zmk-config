@@ -264,7 +264,7 @@
 				&kp A	&kp O	&kp T	&kp E 
 				&kp X	&kp SPACE	&kp Z			
 				>;
-			sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW &inc_dec_kp LEFT_ARROW RIGHT_ARROW &inc_dec_kp UP_ARROW DOWN_ARROW >;
+			sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW &inc_dec_kp LEFT_ARROW RIGHT_ARROW >;
 			
 			// How do I implement the joystick?
 			/* eg. For joystickY - Above read 128 press UP, read below -128 then DOWN_ARROW
