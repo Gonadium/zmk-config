@@ -7,7 +7,7 @@ manifest:
   projects:
     - name: zmk-joystick
       remote: codeandr3w
-      revision: joystickpr
+      revision: mousepr-andrew
       import: app/west.yml
   self:
     path: config
