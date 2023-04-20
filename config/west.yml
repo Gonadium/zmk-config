@@ -3,9 +3,9 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: codeandr3w
-      url-base: https://github.com/codeandr3w/zmk-joystick
+      url-base: https://github.com/codeandr3w
   projects:
-    - name: zmk
+    - name: zmk-joystick
       remote: codeandr3w
       revision: joystickpr
       import: app/west.yml
