@@ -267,7 +267,11 @@
 			sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW &inc_dec_kp LEFT_ARROW >;
 			
 			// How do I implement the joystick?
+<<<<<<< HEAD
 			/* eg. For joystickY - Above read 128 press UP, read below -128 t*/
+=======
+			/* eg. For joystickY - Above read 128 press UP, read below -128 t
+>>>>>>> parent of 06bf42b (Update randir.keymap)
 		
 			};
 		};
