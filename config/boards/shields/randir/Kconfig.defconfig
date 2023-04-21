@@ -5,8 +5,8 @@ config JOYSTICK
 	
 config ADC
 	default y
-
 	
 config ZMK_KEYBOARD_NAME
     default "Randir"
+	
 endif
