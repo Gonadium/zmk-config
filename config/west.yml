@@ -4,14 +4,20 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: codeandr3w
       url-base: https://github.com/codeandr3w
+    - name: tewtham
+      url-base: https://github.com/codeandr3w
   projects:
-    - name: zmk
-      remote: zmkfirmware
-      revision: main
-      import: app/west.yml
+#    - name: zmk
+#      remote: zmkfirmware
+#      revision: main
+#      import: app/west.yml
 #    - name: zmk-joystick
 #      remote: codeandr3w
 #      revision: mousepr-andrew
 #      import: app/west.yml
+    - name: zmk
+      remote: tewtham
+      revision: dactyl_typesafe
+      import: app/west.yml
   self:
     path: config
