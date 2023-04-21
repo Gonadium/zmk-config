@@ -1,8 +1,6 @@
 if SHIELD_RANDIR
 
-config JOYSTICK
-	default y
-	
+
 config ADC
 	default y
 	
