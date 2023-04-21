@@ -1,9 +1,11 @@
 if SHIELD_RANDIR
 
-
-config ADC
+config JOYSTICK
 	default y
 	
+config ADC
+	default y
+
 	
 config ZMK_KEYBOARD_NAME
     default "Randir"
