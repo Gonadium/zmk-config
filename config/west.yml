@@ -9,9 +9,9 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-joystick
-      remote: codeandr3w
-      revision: mousepr-andrew
-      import: app/west.yml
+#    - name: zmk-joystick
+#      remote: codeandr3w
+#      revision: mousepr-andrew
+#      import: app/west.yml
   self:
     path: config
