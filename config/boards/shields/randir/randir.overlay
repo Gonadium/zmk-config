@@ -84,9 +84,9 @@
 
 	sensors {
         compatible = "zmk,keymap-sensors";
-        sensors = <&left_encoder>;
+        sensors = <&left_encoder &joystickxy>;
     };
-		// &joystickx &joysticky>;
+		
 };
 
 &adc {
