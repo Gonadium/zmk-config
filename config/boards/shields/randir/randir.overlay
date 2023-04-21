@@ -68,7 +68,7 @@
         resolution = <4>;
         status = "okay";
     };
-	
+	/*
 	// X-axis pro_micro (21) / Nice!Nano_V2 (P0.31) / nRF52840 (AIN7)
 	// Y-axis pro_micro (20) / Nice!Nano_V2 (P0.29) / nRF52840 (AIN5)
 	joystickxy: joystickxy {
@@ -81,10 +81,11 @@
 	min_on = <200>;
 	num_axis = <2>;
     };
+	*/
 
 	sensors {
         compatible = "zmk,keymap-sensors";
-        sensors = <&left_encoder &joystickxy>;
+        sensors = <&left_encoder /*&joystickxy*/>;
     };
 		
 };

@@ -12,6 +12,8 @@
 #include <dt-bindings/zmk/bt.h>
 //#include <dt-bindings/zmk/mouse.h>
 //#include <dt-bindings/zmk/ext_power.h>
+//#include <dt-bindings/zmk/outputs.h>
+
 
 
 
@@ -267,10 +269,7 @@
 				&kp A	&kp O	&kp T	&kp E 
 				&kp X	&kp SPACE	&kp Z			
 				>;
-			sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>;// &inc_dec_kp L R   &inc_dec_kp U D  >; //lets output L R U D for arrows for now to see whats going on
-			
-			// How do I implement the joystick?
-
+			sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW /*&varxy_kp LEFT UP*/>;// 
 			};
 		};
 };
