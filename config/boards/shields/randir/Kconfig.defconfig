@@ -2,8 +2,5 @@ if SHIELD_RANDIR
 
 config ZMK_KEYBOARD_NAME
     default "Randir"
-/*
-config JOYSTICK
-	default y
-*/	
+
 endif
