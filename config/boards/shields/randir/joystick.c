@@ -15,6 +15,7 @@
 #include <sys/__assert.h>
 #include <logging/log.h>
 #include <stdlib.h>
+#include <stdbool.h>
 #include <pm/device.h>
 #include "../../../include/drivers/ext_power.h"
 
