@@ -68,38 +68,20 @@
         resolution = <4>;
         status = "okay";
     };
-	/*
-    joystickx: joystickx {
+	
+	// X-axis pro_micro (21) / Nice!Nano_V2 (P0.31) / nRF52840 (AIN7)
+	// Y-axis pro_micro (20) / Nice!Nano_V2 (P0.29) / nRF52840 (AIN5)
+	joystickxy: joystickxy {
         compatible = "joystick";
-        label = "JOYSTICKX";
-	io-channels = <&adc 7>; // pro_micro (21) / Nice!Nano_V2 (P0.31) / nRF52840 (AIN7)
+        label = "JOYSTICKXY";
+	io-channels = <&adc 5 &adc 7>;
 	status = "okay";
 	resolution = <512>;
 	frequency = <50>;
-	min_on = <256>;
-	reverse;
+	min_on = <200>;
+	num_axis = <2>;
     };
 
-    joysticky: joysticky {
-        compatible = "joystick";
-        label = "JOYSTICKY";
-	io-channels = <&adc 5>; // pro_micro (20) / Nice!Nano_V2 (P0.29) / nRF52840 (AIN5)
-	status = "okay";
-	resolution = <512>;
-	frequency = <50>;
-	min_on = <256>;
-	reverse;
-    };
-	*/
-/*
-	&adc {
-		status = "okay";
-	};
-
-	&left_encoder {
-		status = "okay";
-	};
-*/
 	sensors {
         compatible = "zmk,keymap-sensors";
         sensors = <&left_encoder>;
@@ -107,3 +89,6 @@
 		// &joystickx &joysticky>;
 };
 
+&adc {
+	status = "okay";
+};
