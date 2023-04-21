@@ -6,6 +6,12 @@ config JOYSTICK
 config ADC
 	default y
 	
+config ZMK_MOUSE
+	default y
+	
+config PMW33XX
+	default y
+	
 config ZMK_KEYBOARD_NAME
     default "Randir"
 endif
