@@ -68,11 +68,6 @@
         status = "okay";
     };
 	
-	sensors {
-        compatible = "zmk,keymap-sensors";
-        sensors = <&left_encoder &joystickx &joysticky>;
-    };	
-	
     joystickx: joystickx {
         compatible = "joystick";
         label = "JOYSTICKX";
@@ -97,14 +92,17 @@
 
 };
 
-&adc {
-	status = "okay";
-};
+	&adc {
+		status = "okay";
+	};
 
-&left_encoder {
-    status = "okay";
-};
+	&left_encoder {
+		status = "okay";
+	};
 
-
+	sensors {
+        compatible = "zmk,keymap-sensors";
+        sensors = <&left_encoder &joystickx &joysticky>;
+    };
 };
 
