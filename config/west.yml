@@ -17,7 +17,7 @@ manifest:
 #      import: app/west.yml
     - name: zmk
       remote: tewtham
-      revision: dactyl_typesafe
+      revision: main
       import: app/west.yml
   self:
     path: config
