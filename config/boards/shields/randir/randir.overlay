@@ -58,6 +58,7 @@
 
 	};
 	
+	/*
 	x_encoder: encoder_x {
         compatible = "alps,ec11";
         label = "LEFT_ENCODER";
@@ -66,7 +67,7 @@
         resolution = <4>;
         status = "okay";
     };
-	
+	*/
 	
     joystickx: joystickx {
         compatible = "joystick";
@@ -98,7 +99,7 @@
 
 	sensors {
         compatible = "zmk,keymap-sensors";
-        sensors = <&x_encoder &joystickx >; //&joysticky>;
+        sensors = </*&x_encoder*/ &joystickx >; //&joysticky>;
     };
 };
 
