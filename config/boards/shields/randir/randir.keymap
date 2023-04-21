@@ -39,7 +39,7 @@
 		combo_l				{timeout-ms = <500>;	key-positions = <4 5>;			bindings = <&kp L >;};
 		combo_m				{timeout-ms = <500>;	key-positions = <0 7>;			bindings = <&kp M >;};
 		combo_p				{timeout-ms = <500>;	key-positions = <1 2>;			bindings = <&kp P >;};
-		combo_qu			{timeout-ms = <500>;	key-positions = <4 6>;			bindings = <&kp Q &kp U >;};
+		combo_qu			{timeout-ms = <500>;	key-positions = <4 6>;			bindings = <&kp Q >,<&kp U >;};
 		combo_u				{timeout-ms = <500>;	key-positions = <5 6>;			bindings = <&kp U >;};
 		combo_v				{timeout-ms = <500>;	key-positions = <1 7>;			bindings = <&kp V >;};
 		combo_w				{timeout-ms = <500>;	key-positions = <3 4>;			bindings = <&kp W >;};
