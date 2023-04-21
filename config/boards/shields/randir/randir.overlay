@@ -67,7 +67,7 @@
         resolution = <4>;
         status = "okay";
     };
-	
+	/*
     joystickx: joystickx {
         compatible = "joystick";
         label = "JOYSTICKX";
@@ -89,7 +89,7 @@
 	min_on = <256>;
 	reverse;
     };
-
+	*/
 };
 
 	&adc {
@@ -102,7 +102,7 @@
 
 	sensors {
         compatible = "zmk,keymap-sensors";
-        sensors = <&left_encoder &joystickx &joysticky>;
+        sensors = <&left_encoder>;// &joystickx &joysticky>;
     };
 };
 
