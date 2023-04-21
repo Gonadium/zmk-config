@@ -59,7 +59,7 @@
 	};
 	
 	
-	x_encoder: encoder_x {
+	left_encoder: encoder_left {
         compatible = "alps,ec11";
         label = "LEFT_ENCODER";
         a-gpios = <&pro_micro 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
@@ -72,7 +72,7 @@
     joystickx: joystickx {
         compatible = "joystick";
         label = "JOYSTICKX";
-	io-channels = <&adc 7>; // what is this for pro_micro pin 21
+	io-channels = <&adc 7>; // pro_micro (21) / Nice!Nano_V2 (P0.31) / nRF52840 (AIN7)
 	status = "okay";
 	resolution = <512>;
 	frequency = <50>;
@@ -83,7 +83,7 @@
     joysticky: joysticky {
         compatible = "joystick";
         label = "JOYSTICKY";
-	io-channels = <&adc 5>; // what is this for pro_micro pin 20
+	io-channels = <&adc 5>; // pro_micro (20) / Nice!Nano_V2 (P0.29) / nRF52840 (AIN5)
 	status = "okay";
 	resolution = <512>;
 	frequency = <50>;
@@ -97,9 +97,12 @@
 	status = "okay";
 };
 
+&left_encoder {
+    status = "okay";
+};
 	sensors {
         compatible = "zmk,keymap-sensors";
-        sensors = <&x_encoder &joystickx &joysticky>;
+        sensors = <&left_encoder &joystickx &joysticky>;
     };
 };
 
