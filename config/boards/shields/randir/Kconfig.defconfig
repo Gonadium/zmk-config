@@ -9,8 +9,7 @@ config ZMK_KEYBOARD_NAME
 config ADC
 	default y
 	
-config JOYSTICK
-	default y
+
 
 
 endif
