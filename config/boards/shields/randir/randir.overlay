@@ -67,7 +67,7 @@
         resolution = <4>;
         status = "okay";
     };
-	
+	/*
     joystickx: joystickx {
         compatible = "joystick";
         label = "JOYSTICKX";
@@ -89,7 +89,7 @@
 	min_on = <256>;
 	reverse;
     };
-	
+	*/
 /*
 	&adc {
 		status = "okay";
