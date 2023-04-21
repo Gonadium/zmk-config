@@ -5,7 +5,7 @@ manifest:
     - name: codeandr3w
       url-base: https://github.com/codeandr3w
     - name: tewtham
-      url-base: https://github.com/codeandr3w
+      url-base: https://github.com/tewtham
   projects:
 #    - name: zmk
 #      remote: zmkfirmware
