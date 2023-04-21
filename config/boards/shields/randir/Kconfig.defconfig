@@ -8,7 +8,6 @@ config ZMK_KEYBOARD_NAME
 
 config ADC
 	default y
-	
 
 
 endif
