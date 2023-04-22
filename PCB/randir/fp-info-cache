@@ -1,4 +1,4 @@
-1386427555252935
+1391473768006378
 PCM_Mounting_Keyboard_Stabilizer
 Stabilizer_Cherry_MX_2.00u
 Cherry MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u
@@ -5701,6 +5701,27 @@ footprints3
 thread_m2
 Mounting Hole 2.2mm, no annular, M2
 mounting hole 2.2mm no annular m2
+0
+0
+0
+footprints3
+toby_slide_down
+
+
+0
+0
+0
+footprints3
+toby_slide_in
+
+
+0
+0
+0
+footprints3
+toby_slidein_support
+
+
 0
 0
 0
