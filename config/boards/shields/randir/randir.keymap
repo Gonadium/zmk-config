@@ -24,7 +24,9 @@
 	macros {
 		ZMK_MACRO(m_qu,					wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp Q &kp U>;)
 		ZMK_MACRO(m_upper_Qu,			wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp LS(Q) &kp U>;)
-		ZMK_MACRO(m_elipsis,			wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp DOT>;)
+		ZMK_MACRO(m_elipsis,			wait-ms = <30>;	tap-ms = <30>;		bindings = <&macro_press	&kp LALT>
+    																			, <&macro_tap			&kp KP_N0 &kp KP_N1 &kp KP_N3 &kp KP_N3>
+    																			, <&macro_release		&kp LALT>;)
 	};
 
 	combos {
