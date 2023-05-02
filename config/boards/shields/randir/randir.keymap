@@ -27,6 +27,30 @@
 		ZMK_MACRO(m_elipsis,			wait-ms = <30>;	tap-ms = <30>;		bindings = <&macro_press	&kp LALT>
     																			, <&macro_tap			&kp KP_N0 &kp KP_N1 &kp KP_N3 &kp KP_N3>
     																			, <&macro_release		&kp LALT &kp SPACE>;)
+		ZMK_MACRO(m_degree,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&macro_press	&kp LALT>
+    																			, <&macro_tap			&kp KP_N0 &kp KP_N1 &kp KP_N7 &kp KP_N6>
+    																			, <&macro_release		&kp LALT>;)
+		ZMK_MACRO(m_able,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp A &kp B &kp L &kp E >;)
+		ZMK_MACRO(m_about,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp A &kp B &kp O &kp U &kp T >;)
+		ZMK_MACRO(m_ack,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp A &kp C &kp K >;)
+		ZMK_MACRO(m_aise,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp A &kp I &kp S &kp E >;)
+		ZMK_MACRO(m_ake,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp A &kp K &kp E >;)
+		ZMK_MACRO(m_al,					wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp A &kp L >;)
+		ZMK_MACRO(m_all,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp A &kp L &kp L >;)
+		ZMK_MACRO(m_ally,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp A &kp L &kp L &kp Y >;)
+		ZMK_MACRO(m_also,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp A &kp L &kp S &kp O >;)
+		ZMK_MACRO(m_and,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp A &kp N &kp D >;)
+		ZMK_MACRO(m_ange,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp A &kp N &kp G &kp E >;)
+		ZMK_MACRO(m_are,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp A &kp R &kp E >;)
+		ZMK_MACRO(m_ation,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp A &kp T &kp I &kp O &kp N >;)
+		ZMK_MACRO(m_ative,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp A &kp T &kp I &kp V &kp E >;)
+		ZMK_MACRO(m_ave,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp A &kp V &kp E >;)
+		
+		ZMK_MACRO(m_be,					wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp B &kp E >;)
+		ZMK_MACRO(m_because,			wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp B &kp E &kp C &kp A &kp U &kp S &kp E >;)
+		
+		
+
 	};
 
 	combos {
