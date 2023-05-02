@@ -286,12 +286,13 @@
 			bindings = <
 				&kp R	&kp S	&kp N	&kp I
 				&kp A	&kp O	&kp T	&kp E 
-				&kp X	&kp SPACE	&kp Z			
+												&kp SPACE	&kp Z
+												
+												&kp UP
+									&kp LEFT	&kp C		&kp RIGHT
+												&kp DOWN
 				>;
-			sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>;// &inc_dec_kp L R   &inc_dec_kp U D  >; //lets output L R U D for arrows for now to see whats going on
-			
-			// How do I implement the joystick?
-
+			sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
 			};
 		};
 };
