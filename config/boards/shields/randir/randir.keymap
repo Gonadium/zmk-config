@@ -20,10 +20,32 @@
  };
 
 / {
-	
+
+	macros {
+		ZMK_MACRO(m_qu,				wait-ms = <30>;	tap-ms = <40>;		bindings = <&kp Q &kp U>;)
+		ZMK_MACRO(m_Qu,				wait-ms = <30>;	tap-ms = <40>;		bindings = <&kp LS(Q) &kp U>;)
+	};
+
 	combos {
 		compatible = "zmk,combos";
 		
+//
+//	Key Position Map						
+//	┌────┬────┬────┬────┐
+//	| 0  | 1  | 2  | 3  |
+//	├────┼────┼────┼────┤
+//	| 4  | 5  | 6  | 7  |
+//	└────┴────┴────┴────┼────┬────┐
+//						| 8  | 9  |
+//			    		└────┴────┘
+//					┌────┐
+//					| 11 | 
+//		       ┌────┼────┼────┐
+//		       | 13 | 10 | 14 |
+//		       └────┴────┴────┘
+//			    	| 12 | 
+//			    	└────┘
+//
 //		LOWERCASE LETTERS
 		combo_b				{timeout-ms = <500>;	key-positions = <0 1>;			bindings = <&kp B >;};
 		combo_c				{timeout-ms = <500>;	key-positions = <5 7>;			bindings = <&kp C >;};
