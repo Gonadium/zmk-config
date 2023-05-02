@@ -24,9 +24,9 @@
 	macros {
 		ZMK_MACRO(m_qu,					wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp Q &kp U>;)
 		ZMK_MACRO(m_upper_Qu,			wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp LS(Q) &kp U>;)
-		ZMK_MACRO(m_elipsis,			wait-ms = <30>;	tap-ms = <30>;		bindings = <&macro_press	&kp LALT>
+		/*ZMK_MACRO(m_elipsis,			wait-ms = <30>;	tap-ms = <30>;		bindings = <&macro_press	&kp LALT>
     																			, <&macro_tap			&kp KP_N0 &kp KP_N1 &kp KP_N3 &kp KP_N3>
-    																			, <&macro_release		&kp LALT>;)
+    																			, <&macro_release		&kp LALT>;)*/
 		
 	};
 
@@ -107,7 +107,7 @@
 		combo_SEMICOLON		{timeout-ms = <500>;	key-positions = <2 7 9>;		bindings = <&kp SEMICOLON >;};						//	;
 		combo_APOSTROPHE	{timeout-ms = <500>;	key-positions = <1 4>;			bindings = <&kp APOSTROPHE >;};						//	'
 		combo_DOUBLE_QUOTES	{timeout-ms = <500>;	key-positions = <1 4 9>;		bindings = <&kp DOUBLE_QUOTES >;};					//	"
-		combo_ELIPSES		{timeout-ms = <500>;	key-positions = <0 5 10>;		bindings = <&m_elipsis >;};							//	Macro
+//		combo_ELIPSES		{timeout-ms = <500>;	key-positions = <0 5 10>;		bindings = <&m_elipsis >;};							//	Macro
 		combo_GRAVE			{timeout-ms = <500>;	key-positions = <1 4 10>;		bindings = <&kp GRAVE >;};							//	`
 //		combo_°				{timeout-ms = <500>;	key-positions = <0 5 10>;		bindings = <&kp ° >;};
 
