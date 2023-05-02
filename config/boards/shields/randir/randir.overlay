@@ -10,14 +10,7 @@
 
 	chosen {
 		zmk,kscan = &kscan0;
-		zmk,matrix_transform = &default_transform;
 	};
-
-	default_transform: keymap_transform_0 {
-		compatible = "zmk,matrix-transform";
-		columns = <11>;
-		rows = <1>;
-		map = <
 
 //	Pin map							
 //	┌────┬────┬────┬────┐
@@ -28,38 +21,34 @@
 //			    | 0  | 1  |
 //			    └────┴────┘
 //		            ┌────┐
-//			    | 11 | 
+//			    | 19 | 
 //		       ┌────┼────┼────┐
-//		       | 13 | 10 | 14 |
+//		       | 5  | 21 | 4  |
 //		       └────┴────┴────┴
-//			    | 12 | 
+//			    | 2  | 
 //			    └────┘
 //
-//		r 	s 	n 	i 
-//		a 	o 	t 	e 
-// 				enc spc	?
 
-		RC(0,0)		RC(0,1)		RC(0,2)		RC(0,3)
-		RC(0,4)		RC(0,5)		RC(0,6)		RC(0,7)
-								RC(0,8)		RC(0,9)		RC(0,10)
-		>;
-	};
 
 	kscan0: kscan {
 		compatible = "zmk,kscan-gpio-direct";
 		label = "KSCAN";
-		input-gpios // WHY the living fuck it has to be in this order to work is beyond me
-		= <&pro_micro 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	r
-		, <&pro_micro 5  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	a
-		, <&pro_micro 4  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	n
-		, <&pro_micro 0  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	i
-		, <&pro_micro 6  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	o
-		, <&pro_micro 7  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	s
-		, <&pro_micro 8  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	t
-		, <&pro_micro 9  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	e
-		, <&pro_micro 18 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	EncSW
-		, <&pro_micro 16 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	space
-		, <&pro_micro 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	?
+		input-gpios 
+		= <&pro_micro 9  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW0 - r
+		, <&pro_micro 8  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW1 - a
+		, <&pro_micro 7  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW2 - n
+		, <&pro_micro 6  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW3 - i
+		, <&pro_micro 16 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW4 - o
+		, <&pro_micro 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW5 - s
+		, <&pro_micro 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW6 - t
+		, <&pro_micro 18 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW7 - e
+		, <&pro_micro 0  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW8 - Space
+		, <&pro_micro 1  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW9 - ???? still thinking
+		, <&pro_micro 21 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW10 - Encoder - Centre 
+		, <&pro_micro 19 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW11 - Nav - up
+		, <&pro_micro 2  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW12 - Nav - down
+		, <&pro_micro 5  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW13 - Nav - left
+		, <&pro_micro 4  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW14 - Nav - right
 		;
 	};
 	
@@ -67,8 +56,8 @@
 	left_encoder: encoder_left {
 		compatible = "alps,ec11";
 		label = "LEFT_ENCODER";
-		a-gpios = <&pro_micro 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-		b-gpios = <&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		a-gpios = <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		b-gpios = <&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		resolution = <4>;
 		status = "okay";
     	};
