@@ -45,9 +45,9 @@
 		, <&pro_micro 0  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW8 - Space
 		, <&pro_micro 1  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW9 - ???? still thinking
 		, <&pro_micro 19 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW10 - Nav - up
-		, <&pro_micro 5  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW11 - Nav - left
+		, <&pro_micro 4  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW11 - Nav - left
 		, <&pro_micro 21 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW12 - Nav - Centre 
-		, <&pro_micro 4  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW13 - Nav - right
+		, <&pro_micro 5  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW13 - Nav - right
 		, <&pro_micro 2  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW14 - Nav - down
 		;
 	};
