@@ -43,7 +43,7 @@
 		, <&pro_micro 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW6 - t
 		, <&pro_micro 18 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW7 - e
 		, <&pro_micro 0  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW8 - Space
-		, <&pro_micro 1  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW9 - ???? still thinking
+		, <&pro_micro 1  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW9 - Space
 		, <&pro_micro 19 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW10 - Nav - up
 		, <&pro_micro 4  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW11 - Nav - left
 		, <&pro_micro 21 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW12 - Nav - Centre 
@@ -63,7 +63,7 @@
     	};
 	
 	sensors {
-		compatible = "zmk,keymap-sensors";
+		compatible = "zmk,keymap-sensors";toby io
 		sensors = <&left_encoder>;
     	};
 };
