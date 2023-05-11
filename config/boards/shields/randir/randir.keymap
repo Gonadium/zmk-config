@@ -132,7 +132,7 @@
 		combo_DOUBLE_QUOTES	{timeout-ms = <500>;	key-positions = <1 4 8>;		bindings = <&kp DOUBLE_QUOTES >;};					//	"
 		combo_ELIPSES		{timeout-ms = <500>;	key-positions = <0 5 9>;		bindings = <&m_elipsis >;};							//	Macro …
 		combo_GRAVE			{timeout-ms = <500>;	key-positions = <1 4 9>;		bindings = <&kp GRAVE >;};							//	`
-//		combo_°				{timeout-ms = <500>;	key-positions = <0 5 9>;		bindings = <&kp ° >;};
+		combo_°				{timeout-ms = <500>;	key-positions = <0 5 9>;		bindings = <&m_degree >;};
 
 //		CONTROL AND WHITESPACES
 		combo_ENTER			{timeout-ms = <500>;	key-positions = <5 6 7>;		bindings = <&kp ENTER >;};
