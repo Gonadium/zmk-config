@@ -33,8 +33,8 @@
 		ZMK_MACRO(m_textIndent,			wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp SPACE &kp MINUS &kp SPACE &kp HOME &kp DOWN >;)		
 
 //		RANDOM MACROS
-		ZMK_MACRO(m_password,			wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp A &kp B &kp O &kp U &kp T >;)
-		ZMK_MACRO(m_about,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp A &kp B &kp O &kp U &kp T >;)
+		ZMK_MACRO(m_password1,			wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp A &kp B &kp O &kp U &kp T >;)
+		ZMK_MACRO(m_password2,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp A &kp B &kp O &kp U &kp T >;)
 
 //		WORD PARTS		
 		ZMK_MACRO(m_able,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp A &kp B &kp L &kp E >;)
