@@ -30,6 +30,13 @@
 		ZMK_MACRO(m_degree,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&macro_press	&kp LALT>
     																			, <&macro_tap			&kp KP_N0 &kp KP_N1 &kp KP_N7 &kp KP_N6>
     																			, <&macro_release		&kp LALT>;)
+		ZMK_MACRO(m_textIndent,			wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp SPACE &kp MINUS &kp SPACE &kp HOME &kp DOWN >;)		
+
+//		RANDOM MACROS
+		ZMK_MACRO(m_password,			wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp A &kp B &kp O &kp U &kp T >;)
+		ZMK_MACRO(m_about,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp A &kp B &kp O &kp U &kp T >;)
+
+//		WORD PARTS		
 		ZMK_MACRO(m_able,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp A &kp B &kp L &kp E >;)
 		ZMK_MACRO(m_about,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp A &kp B &kp O &kp U &kp T >;)
 		ZMK_MACRO(m_ack,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp A &kp C &kp K >;)
@@ -49,8 +56,105 @@
 		ZMK_MACRO(m_be,					wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp B &kp E >;)
 		ZMK_MACRO(m_because,			wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp B &kp E &kp C &kp A &kp U &kp S &kp E >;)
 		
+		ZMK_MACRO(m_ch,					wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp C &kp H >;)
 		
-
+		ZMK_MACRO(m_day,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp D &kp A &kp Y >;)
+		ZMK_MACRO(m_dis,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp D &kp I &kp S >;)
+	
+		ZMK_MACRO(m_each,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp E &kp A &kp C &kp H >;)
+		ZMK_MACRO(m_eal,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp E &kp A &kp L >;)
+		ZMK_MACRO(m_ear,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp E &kp A &kp R >;)
+		ZMK_MACRO(m_een,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp E &kp E &kp N >;)
+		ZMK_MACRO(m_eir,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp E &kp I &kp R >;)
+		ZMK_MACRO(m_ent,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp E &kp N &kp T >;)
+		ZMK_MACRO(m_ere,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp E &kp R &kp E >;)
+		ZMK_MACRO(m_ess,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp E &kp S &kp S >;)
+		ZMK_MACRO(m_ever,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp E &kp V &kp E &kp R >;)
+		ZMK_MACRO(m_every,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp E &kp V &kp E &kp R &kp Y >;)
+		
+		ZMK_MACRO(m_for,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp F &kp O &kp R >;)
+		ZMK_MACRO(m_from,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp F &kp R &kp O &kp M >;)
+		
+		ZMK_MACRO(m_has,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp H &kp A &kp S >;)
+		ZMK_MACRO(m_have,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp H &kp A &kp V &kp E >;)
+		
+		ZMK_MACRO(m_ible,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp I &kp B &kp L &kp E >;)
+		ZMK_MACRO(m_ice,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp I &kp C &kp E >;)
+		ZMK_MACRO(m_ich,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp I &kp C &kp H >;)
+		ZMK_MACRO(m_ies,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp I &kp E &kp S >;)
+		ZMK_MACRO(m_igh,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp I &kp G &kp H >;)
+		ZMK_MACRO(m_ight,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp I &kp G &kp H &kp T >;)
+		ZMK_MACRO(m_ind,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp I &kp N &kp D >;)
+		ZMK_MACRO(m_ine,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp I &kp N &kp E >;)
+		ZMK_MACRO(m_ing,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp I &kp N &kp G >;)
+		ZMK_MACRO(m_ion,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp I &kp O &kp N >;)
+		ZMK_MACRO(m_ious,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp I &kp O &kp U &kp S >;)
+		ZMK_MACRO(m_irst,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp I &kp R &kp S &kp T >;)
+		ZMK_MACRO(m_ise,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp I &kp S &kp E >;)
+		ZMK_MACRO(m_ism,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp I &kp S &kp M >;)
+		ZMK_MACRO(m_ist,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp I &kp S &kp T >;)
+		ZMK_MACRO(m_ive,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp I &kp V &kp E >;)
+		
+		ZMK_MACRO(m_ld,					wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp L &kp D >;)
+		ZMK_MACRO(m_less,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp L &kp E &kp S &kp S >;)
+		ZMK_MACRO(m_lly,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp L &kp L &kp Y >;)
+		ZMK_MACRO(m_ly,					wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp L &kp Y >;)
+		
+		ZMK_MACRO(m_ment,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp M &kp E &kp N &kp T >;)
+		
+		ZMK_MACRO(m_ness,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp N &kp E &kp S &kp S >;)
+		
+		ZMK_MACRO(m_obvious,			wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp O &kp B &kp V &kp I &kp O &kp U &kp S >;)
+		ZMK_MACRO(m_ock,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp O &kp C &kp K >;)
+		ZMK_MACRO(m_oint,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp O &kp I &kp N &kp T >;)
+		ZMK_MACRO(m_ome,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp O &kp M &kp E >;)
+		ZMK_MACRO(m_one,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp O &kp N &kp E >;)
+		ZMK_MACRO(m_ook,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp O &kp O &kp K >;)
+		ZMK_MACRO(m_ore,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp O &kp R &kp E >;)
+		ZMK_MACRO(m_ose,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp O &kp S &kp E >;)
+		ZMK_MACRO(m_other,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp O &kp T &kp H &kp E &kp R >;)
+		ZMK_MACRO(m_ough,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp O &kp U &kp G &kp H >;)
+		ZMK_MACRO(m_ought,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp O &kp U &kp G &kp H &kp T >;)
+		ZMK_MACRO(m_ould,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp O &kp U &kp L &kp D >;)
+		ZMK_MACRO(m_our,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp O &kp U &kp R >;)
+		ZMK_MACRO(m_ous,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp O &kp U &kp S >;)
+		ZMK_MACRO(m_ouse,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp O &kp U &kp S &kp E >;)
+		ZMK_MACRO(m_out,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp O &kp U &kp T >;)
+		
+		ZMK_MACRO(m_pra,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp P &kp R &kp A >;)
+		ZMK_MACRO(m_pre,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp P &kp R &kp E >;)
+		ZMK_MACRO(m_pro,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp P &kp R &kp O >;)
+		ZMK_MACRO(m_psy,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp P &kp S &kp Y >;)
+		ZMK_MACRO(m_psych,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp P &kp S &kp Y &kp C &kp H >;)
+		
+		ZMK_MACRO(m_rst,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp R &kp S &kp T >;)
+		
+		ZMK_MACRO(m_sh,					wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp S &kp H >;)
+		ZMK_MACRO(m_sm,					wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp S &kp M >;)
+		
+		ZMK_MACRO(m_than,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp T &kp H &kp A &kp N >;)
+		ZMK_MACRO(m_that,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp T &kp H &kp A &kp T >;)
+		ZMK_MACRO(m_then,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp T &kp H &kp E &kp N >;)
+		ZMK_MACRO(m_there,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp T &kp H &kp E &kp R &kp E >;)
+		ZMK_MACRO(m_these,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp T &kp H &kp E &kp S &kp E >;)
+		ZMK_MACRO(m_thin,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp T &kp H &kp I &kp N >;)
+		ZMK_MACRO(m_this,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp T &kp H &kp I &kp S >;)
+		ZMK_MACRO(m_thr,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp T &kp H &kp R >;)
+		ZMK_MACRO(m_tion,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp T &kp I &kp O &kp N >;)
+		ZMK_MACRO(m_tive,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp T &kp I &kp V &kp E >;)
+		ZMK_MACRO(m_ttle,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp T &kp T &kp L &kp E >;)
+		
+		ZMK_MACRO(m_uch,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp U &kp C &kp H >;)
+		ZMK_MACRO(m_uous,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp U &kp O &kp U &kp S >;)
+		
+		ZMK_MACRO(m_was,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp W &kp A &kp S >;)
+		ZMK_MACRO(m_we,					wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp W &kp E >;)
+		ZMK_MACRO(m_wh,					wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp W &kp H >;)
+		ZMK_MACRO(m_what,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp W &kp H &kp A &kp T >;)
+		ZMK_MACRO(m_when,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp W &kp H &kp E &kp N >;)
+		ZMK_MACRO(m_with,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp W &kp I &kp T &kp H >;)
+		ZMK_MACRO(m_your,				wait-ms = <30>;	tap-ms = <30>;		bindings = <&kp Y &kp O &kp U &kp R >;)
+	
 	};
 
 	combos {
@@ -63,7 +167,7 @@
 //	├────┼────┼────┼────┤
 //	| 4  | 5  | 6  | 7  |
 //	└────┴────┴────┴────┼────┬────┐
-//						| 8  | 9  |
+//						| 9  | 8  |
 //			    		└────┴────┘
 //					┌────┐
 //					| 10 | 
@@ -93,157 +197,216 @@
 		combo_y				{timeout-ms = <500>;	key-positions = <2 3>;			bindings = <&kp Y >;};
 		combo_z				{timeout-ms = <500>;	key-positions = <0 2>;			bindings = <&kp Z >;};
 
+
 //		UPPERCASE LETTERS
-		combo_upper_A		{timeout-ms = <500>;	key-positions = <4 8>;			bindings = <&kp LS(A) >;};
-		combo_upper_B		{timeout-ms = <500>;	key-positions = <0 1 8>;		bindings = <&kp LS(B) >;};
-		combo_upper_C		{timeout-ms = <500>;	key-positions = <5 7 8>;		bindings = <&kp LS(C) >;};
-		combo_upper_D		{timeout-ms = <500>;	key-positions = <4 7 8>;		bindings = <&kp LS(D) >;};
-		combo_upper_E		{timeout-ms = <500>;	key-positions = <7 8>;			bindings = <&kp LS(E) >;};
-		combo_upper_F		{timeout-ms = <500>;	key-positions = <1 3 8>;		bindings = <&kp LS(F) >;};
-		combo_upper_G		{timeout-ms = <500>;	key-positions = <0 3 8>;		bindings = <&kp LS(G) >;};
-		combo_upper_H		{timeout-ms = <500>;	key-positions = <6 7 8>;		bindings = <&kp LS(H) >;};
-		combo_upper_I		{timeout-ms = <500>;	key-positions = <3 8>;			bindings = <&kp LS(I) >;};
-		combo_upper_J		{timeout-ms = <500>;	key-positions = <2 4 8>;		bindings = <&kp LS(J) >;};
-		combo_upper_K		{timeout-ms = <500>;	key-positions = <3 5 8>;		bindings = <&kp LS(K) >;};
-		combo_upper_L		{timeout-ms = <500>;	key-positions = <4 5 8>;		bindings = <&kp LS(L) >;};
-		combo_upper_M		{timeout-ms = <500>;	key-positions = <0 7 8>;		bindings = <&kp LS(M) >;};
-		combo_upper_N		{timeout-ms = <500>;	key-positions = <2 8>;			bindings = <&kp LS(N) >;};
-		combo_upper_O		{timeout-ms = <500>;	key-positions = <5 8>;			bindings = <&kp LS(O) >;};
-		combo_upper_P		{timeout-ms = <500>;	key-positions = <1 2 8>;		bindings = <&kp LS(P) >;};
-		combo_upper_Qu		{timeout-ms = <500>;	key-positions = <4 6 8>;		bindings = <&m_upper_Qu >;};		//	Macro
-		combo_upper_R		{timeout-ms = <500>;	key-positions = <0 8>;			bindings = <&kp LS(R) >;};
-		combo_upper_S		{timeout-ms = <500>;	key-positions = <1 8>;			bindings = <&kp LS(S) >;};
-		combo_upper_T		{timeout-ms = <500>;	key-positions = <6 8>;			bindings = <&kp LS(T) >;};
-		combo_upper_U		{timeout-ms = <500>;	key-positions = <5 6 8>;		bindings = <&kp LS(U) >;};
-		combo_upper_V		{timeout-ms = <500>;	key-positions = <1 7 8>;		bindings = <&kp LS(V) >;};
-		combo_upper_W		{timeout-ms = <500>;	key-positions = <3 4 8>;		bindings = <&kp LS(W) >;};
-		combo_upper_X		{timeout-ms = <500>;	key-positions = <0 6 8>;		bindings = <&kp LS(X) >;};
-		combo_upper_Y		{timeout-ms = <500>;	key-positions = <2 3 8>;		bindings = <&kp LS(Y) >;};
-		combo_upper_Z		{timeout-ms = <500>;	key-positions = <0 2 8>;		bindings = <&kp LS(Z) >;};
+		combo_upper_A		{timeout-ms = <500>;	key-positions = <4 9>;			bindings = <&kp LS(A) >;};
+		combo_upper_B		{timeout-ms = <500>;	key-positions = <0 1 9>;		bindings = <&kp LS(B) >;};
+		combo_upper_C		{timeout-ms = <500>;	key-positions = <5 7 9>;		bindings = <&kp LS(C) >;};
+		combo_upper_D		{timeout-ms = <500>;	key-positions = <4 7 9>;		bindings = <&kp LS(D) >;};
+		combo_upper_E		{timeout-ms = <500>;	key-positions = <7 9>;			bindings = <&kp LS(E) >;};
+		combo_upper_F		{timeout-ms = <500>;	key-positions = <1 3 9>;		bindings = <&kp LS(F) >;};
+		combo_upper_G		{timeout-ms = <500>;	key-positions = <0 3 9>;		bindings = <&kp LS(G) >;};
+		combo_upper_H		{timeout-ms = <500>;	key-positions = <6 7 9>;		bindings = <&kp LS(H) >;};
+		combo_upper_I		{timeout-ms = <500>;	key-positions = <3 9>;			bindings = <&kp LS(I) >;};
+		combo_upper_J		{timeout-ms = <500>;	key-positions = <2 4 9>;		bindings = <&kp LS(J) >;};
+		combo_upper_K		{timeout-ms = <500>;	key-positions = <3 5 9>;		bindings = <&kp LS(K) >;};
+		combo_upper_L		{timeout-ms = <500>;	key-positions = <4 5 9>;		bindings = <&kp LS(L) >;};
+		combo_upper_M		{timeout-ms = <500>;	key-positions = <0 7 9>;		bindings = <&kp LS(M) >;};
+		combo_upper_N		{timeout-ms = <500>;	key-positions = <2 9>;			bindings = <&kp LS(N) >;};
+		combo_upper_O		{timeout-ms = <500>;	key-positions = <5 9>;			bindings = <&kp LS(O) >;};
+		combo_upper_P		{timeout-ms = <500>;	key-positions = <1 2 9>;		bindings = <&kp LS(P) >;};
+		combo_upper_Qu		{timeout-ms = <500>;	key-positions = <4 6 9>;		bindings = <&m_upper_Qu >;};		//	Macro
+		combo_upper_R		{timeout-ms = <500>;	key-positions = <0 9>;			bindings = <&kp LS(R) >;};
+		combo_upper_S		{timeout-ms = <500>;	key-positions = <1 9>;			bindings = <&kp LS(S) >;};
+		combo_upper_T		{timeout-ms = <500>;	key-positions = <6 9>;			bindings = <&kp LS(T) >;};
+		combo_upper_U		{timeout-ms = <500>;	key-positions = <5 6 9>;		bindings = <&kp LS(U) >;};
+		combo_upper_V		{timeout-ms = <500>;	key-positions = <1 7 9>;		bindings = <&kp LS(V) >;};
+		combo_upper_W		{timeout-ms = <500>;	key-positions = <3 4 9>;		bindings = <&kp LS(W) >;};
+		combo_upper_X		{timeout-ms = <500>;	key-positions = <0 6 9>;		bindings = <&kp LS(X) >;};
+		combo_upper_Y		{timeout-ms = <500>;	key-positions = <2 3 9>;		bindings = <&kp LS(Y) >;};
+		combo_upper_Z		{timeout-ms = <500>;	key-positions = <0 2 9>;		bindings = <&kp LS(Z) >;};
 
 //		PUNCTUATION
 		combo_QUESTION		{timeout-ms = <500>;	key-positions = <3 6>;			bindings = <&kp QUESTION >;};						//	?
-		combo_EXCLAMATION	{timeout-ms = <500>;	key-positions = <3 6 8>;		bindings = <&kp EXCLAMATION >;};					//	!
+		combo_EXCLAMATION	{timeout-ms = <500>;	key-positions = <3 6 9>;		bindings = <&kp EXCLAMATION >;};					//	!
 		combo_DOT			{timeout-ms = <500>;	key-positions = <0 5>;			bindings = <&kp DOT >;};							//	.
 		combo_COMMA			{timeout-ms = <500>;	key-positions = <2 7>;			bindings = <&kp COMMA >;};							//	,
-		combo_COLON			{timeout-ms = <500>;	key-positions = <0 5 8>;		bindings = <&kp COLON >;};							//	:
-		combo_SEMICOLON		{timeout-ms = <500>;	key-positions = <2 7 8>;		bindings = <&kp SEMICOLON >;};						//	;
+		combo_COLON			{timeout-ms = <500>;	key-positions = <0 5 9>;		bindings = <&kp COLON >;};							//	:
+		combo_SEMICOLON		{timeout-ms = <500>;	key-positions = <2 7 9>;		bindings = <&kp SEMICOLON >;};						//	;
 		combo_APOSTROPHE	{timeout-ms = <500>;	key-positions = <1 4>;			bindings = <&kp APOSTROPHE >;};						//	'
-		combo_DOUBLE_QUOTES	{timeout-ms = <500>;	key-positions = <1 4 8>;		bindings = <&kp DOUBLE_QUOTES >;};					//	"
-		combo_ELIPSIS		{timeout-ms = <500>;	key-positions = <0 5 9>;		bindings = <&m_elipsis >;};							//	Macro …
-		combo_GRAVE			{timeout-ms = <500>;	key-positions = <1 4 9>;		bindings = <&kp GRAVE >;};							//	`
-		combo_DEGREE		{timeout-ms = <500>;	key-positions = <0 5 9>;		bindings = <&m_degree >;};
+		combo_DOUBLE_QUOTES	{timeout-ms = <500>;	key-positions = <1 4 9>;		bindings = <&kp DOUBLE_QUOTES >;};					//	"
+		combo_ELIPSIS		{timeout-ms = <500>;	key-positions = <0 5 8>;		bindings = <&m_elipsis >;};							//	Macro …
+		combo_GRAVE			{timeout-ms = <500>;	key-positions = <1 4 8>;		bindings = <&kp GRAVE >;};							//	`
+		combo_DEGREE		{timeout-ms = <500>;	key-positions = <0 5 8>;		bindings = <&m_degree >;};							//	Macro °
+
+//		SYMBOLS
+		combo_SLASH			{timeout-ms = <500>;	key-positions = <1 6 9>;		bindings = <&kp SLASH >;};							//	/
+		combo_BACKSLASH		{timeout-ms = <500>;	key-positions = <1 6>;			bindings = <&kp BACKSLASH >;};						//	\'
+		combo_PIPE			{timeout-ms = <500>;	key-positions = <1 6 8>;		bindings = <&kp PIPE >;};							//	|
+		combo_LEFT_BRACKET	{timeout-ms = <500>;	key-positions = <0 1 8>;		bindings = <&kp LEFT_BRACKET >;};					//	[
+		combo_RIGHT_BRACKET	{timeout-ms = <500>;	key-positions = <2 3 8>;		bindings = <&kp RIGHT_BRACKET >;};					//	]
+		combo_LPAR			{timeout-ms = <500>;	key-positions = <4 5 8>;		bindings = <&kp LEFT_PARENTHESIS >;};				//	(
+		combo_RPAR			{timeout-ms = <500>;	key-positions = <6 7 8>;		bindings = <&kp RIGHT_PARENTHESIS >;};				//	)
+		combo_LEFT_BRACE	{timeout-ms = <500>;	key-positions = <0 2 8>;		bindings = <&kp LEFT_BRACE >;};						//	{
+		combo_RIGHT_BRACE	{timeout-ms = <500>;	key-positions = <1 3 8>;		bindings = <&kp RIGHT_BRACE >;};					//	}
+		combo_LESS_THAN		{timeout-ms = <500>;	key-positions = <4 6 8>;		bindings = <&kp LESS_THAN >;};						//	<
+		combo_GREATER_THAN	{timeout-ms = <500>;	key-positions = <5 7 8>;		bindings = <&kp GREATER_THAN >;};					//	>
+		combo_CARET			{timeout-ms = <500>;	key-positions = <0 6 8>;		bindings = <&kp CARET >;};							//	^
+		combo_TILDE			{timeout-ms = <500>;	key-positions = <2 5 8>;		bindings = <&kp TILDE >;};							//	~
+		combo_HASH			{timeout-ms = <500>;	key-positions = <4 7 8>;		bindings = <&kp HASH >;};							//	#
+		combo_DOLLAR		{timeout-ms = <500>;	key-positions = <0 7 8>;		bindings = <&kp DOLLAR >;};							//	$
+		combo_PERCENT		{timeout-ms = <500>;	key-positions = <3 6 8>;		bindings = <&kp PERCENT >;};						//	%
+		combo_ASTERISK		{timeout-ms = <500>;	key-positions = <1 7 8>;		bindings = <&kp ASTERISK >;};						//	*
+		combo_PLUS			{timeout-ms = <500>;	key-positions = <3 5 8>;		bindings = <&kp PLUS >;};							//	+
+		combo_EQUAL			{timeout-ms = <500>;	key-positions = <2 4 8>;		bindings = <&kp EQUAL >;};							//	=
+		combo_MINUS			{timeout-ms = <500>;	key-positions = <2 5>;			bindings = <&kp MINUS >;};							//	-
+		combo_AMPERSAND		{timeout-ms = <500>;	key-positions = <3 4 8>;		bindings = <&kp AMPERSAND >;};						//	&
+		combo_AT			{timeout-ms = <500>;	key-positions = <0 3 8>;		bindings = <&kp AT >;};								//	@
+		combo_UNDERSCORE	{timeout-ms = <500>;	key-positions = <2 5 9>;		bindings = <&kp UNDERSCORE >;};						//	_
+		combo_TextIndent	{timeout-ms = <500>;	key-positions = <2 5 8 9>;		bindings = <&m_textIndent>;};						//	Macro " - "
+
+
+
+//		NUMBERS
+		combo_1				{timeout-ms = <500>;	key-positions = <0 8>;			bindings = <&kp NUMBER_1 >;};
+		combo_2				{timeout-ms = <500>;	key-positions = <1 8>;			bindings = <&kp NUMBER_2 >;};
+		combo_3				{timeout-ms = <500>;	key-positions = <2 8>;			bindings = <&kp NUMBER_3 >;};
+		combo_4				{timeout-ms = <500>;	key-positions = <3 8>;			bindings = <&kp NUMBER_4 >;};
+		combo_5				{timeout-ms = <500>;	key-positions = <4 8>;			bindings = <&kp NUMBER_5 >;};
+		combo_6				{timeout-ms = <500>;	key-positions = <5 8>;			bindings = <&kp NUMBER_6 >;};
+		combo_7				{timeout-ms = <500>;	key-positions = <6 8>;			bindings = <&kp NUMBER_7 >;};
+		combo_8				{timeout-ms = <500>;	key-positions = <7 8>;			bindings = <&kp NUMBER_8 >;};
+		combo_9				{timeout-ms = <500>;	key-positions = <1 2 8>;		bindings = <&kp NUMBER_9 >;};
+		combo_0				{timeout-ms = <500>;	key-positions = <5 6 8>;		bindings = <&kp NUMBER_0 >;};
+
+//		FUNCTION KEYS
+		combo_F1			{timeout-ms = <500>;	key-positions = <0 8 9>;		bindings = <&kp F1>;};		//	
+		combo_F2			{timeout-ms = <500>;	key-positions = <1 8 9>;		bindings = <&kp F2>;};		//	
+		combo_F3			{timeout-ms = <500>;	key-positions = <2 8 9>;		bindings = <&kp F3>;};		//	
+		combo_F4			{timeout-ms = <500>;	key-positions = <3 8 9>;		bindings = <&kp F4>;};		//	
+		combo_F5			{timeout-ms = <500>;	key-positions = <4 8 9>;		bindings = <&kp F5>;};		//	
+		combo_F6			{timeout-ms = <500>;	key-positions = <5 8 9>;		bindings = <&kp F6>;};		//	
+		combo_F7			{timeout-ms = <500>;	key-positions = <6 8 9>;		bindings = <&kp F7>;};		//	
+		combo_F8			{timeout-ms = <500>;	key-positions = <7 8 9>;		bindings = <&kp F8>;};		//	
+		combo_F9			{timeout-ms = <500>;	key-positions = <1 2 8 9>;		bindings = <&kp F9>;};		//	
+		combo_F10			{timeout-ms = <500>;	key-positions = <5 6 8 9>;		bindings = <&kp F10>;};		//	
+		combo_F11			{timeout-ms = <500>;	key-positions = <0 1 8 9>;		bindings = <&kp F11>;};		//	
+		combo_F12			{timeout-ms = <500>;	key-positions = <2 3 8 9>;		bindings = <&kp F12>;};		//	
+
+//		NAVIGATION
+		combo_PAGE_UP		{timeout-ms = <500>;	key-positions = <0 1 2 8>;		bindings = <&kp PAGE_UP >;};
+		combo_PAGE_DOWN		{timeout-ms = <500>;	key-positions = <4 5 6 8>;		bindings = <&kp PAGE_DOWN >;};
+		combo_HOME			{timeout-ms = <500>;	key-positions = <1 5 9>;		bindings = <&kp HOME >;};
+		combo_END			{timeout-ms = <500>;	key-positions = <1 5 8>;		bindings = <&kp END >;};
 
 //		CONTROL AND WHITESPACES
 		combo_ENTER			{timeout-ms = <500>;	key-positions = <5 6 7>;		bindings = <&kp ENTER >;};
 		combo_TAB			{timeout-ms = <500>;	key-positions = <4 5 6>;		bindings = <&kp TAB >;};
-		combo_SHIFTTAB		{timeout-ms = <500>;	key-positions = <4 5 6 8>;		bindings = <&kp LS(TAB) >;};
 		combo_BACKSPACE		{timeout-ms = <500>;	key-positions = <1 2 3>;		bindings = <&kp BACKSPACE >;};
 		combo_DELETE		{timeout-ms = <500>;	key-positions = <0 1 2>;		bindings = <&kp DELETE >;};
-		combo_CTRLDELETE	{timeout-ms = <500>;	key-positions = <0 1 2 8>;		bindings = <&kp LC(DELETE) >;};
-		combo_ESCAPE		{timeout-ms = <500>;	key-positions = <1 2 3 8>;		bindings = <&kp ESCAPE >;};
-
-//		SYMBOLS
-		combo_SLASH			{timeout-ms = <500>;	key-positions = <1 6 8>;		bindings = <&kp SLASH >;};							//	/
-		combo_BACKSLASH		{timeout-ms = <500>;	key-positions = <1 6>;			bindings = <&kp BACKSLASH >;};						//	\'
-		combo_PIPE			{timeout-ms = <500>;	key-positions = <1 6 9>;		bindings = <&kp PIPE >;};							//	|
-		combo_LEFT_BRACKET	{timeout-ms = <500>;	key-positions = <0 1 9>;		bindings = <&kp LEFT_BRACKET >;};					//	[
-		combo_RIGHT_BRACKET	{timeout-ms = <500>;	key-positions = <2 3 9>;		bindings = <&kp RIGHT_BRACKET >;};					//	]
-		combo_LPAR			{timeout-ms = <500>;	key-positions = <4 5 9>;		bindings = <&kp LEFT_PARENTHESIS >;};				//	(
-		combo_RPAR			{timeout-ms = <500>;	key-positions = <6 7 9>;		bindings = <&kp RIGHT_PARENTHESIS >;};				//	)
-		combo_LEFT_BRACE	{timeout-ms = <500>;	key-positions = <0 2 9>;		bindings = <&kp LEFT_BRACE >;};						//	{
-		combo_RIGHT_BRACE	{timeout-ms = <500>;	key-positions = <1 3 9>;		bindings = <&kp RIGHT_BRACE >;};					//	}
-		combo_LESS_THAN		{timeout-ms = <500>;	key-positions = <4 6 9>;		bindings = <&kp LESS_THAN >;};						//	<
-		combo_GREATER_THAN	{timeout-ms = <500>;	key-positions = <5 7 9>;		bindings = <&kp GREATER_THAN >;};					//	>
-		combo_CARET			{timeout-ms = <500>;	key-positions = <0 6 9>;		bindings = <&kp CARET >;};							//	^
-		combo_TILDE			{timeout-ms = <500>;	key-positions = <2 5 9>;		bindings = <&kp TILDE >;};							//	~
-		combo_HASH			{timeout-ms = <500>;	key-positions = <4 7 9>;		bindings = <&kp HASH >;};							//	#
-		combo_DOLLAR		{timeout-ms = <500>;	key-positions = <0 7 9>;		bindings = <&kp DOLLAR >;};							//	$
-		combo_PERCENT		{timeout-ms = <500>;	key-positions = <3 6 9>;		bindings = <&kp PERCENT >;};						//	%
-		combo_ASTERISK		{timeout-ms = <500>;	key-positions = <1 7 9>;		bindings = <&kp ASTERISK >;};						//	*
-		combo_PLUS			{timeout-ms = <500>;	key-positions = <3 5 9>;		bindings = <&kp PLUS >;};							//	+
-		combo_EQUAL			{timeout-ms = <500>;	key-positions = <2 4 9>;		bindings = <&kp EQUAL >;};							//	=
-		combo_MINUS			{timeout-ms = <500>;	key-positions = <2 5>;			bindings = <&kp MINUS >;};							//	-
-		combo_AMPERSAND		{timeout-ms = <500>;	key-positions = <3 4 9>;		bindings = <&kp AMPERSAND >;};						//	&
-		combo_AT			{timeout-ms = <500>;	key-positions = <0 3 9>;		bindings = <&kp AT >;};								//	@
-		combo_UNDERSCORE	{timeout-ms = <500>;	key-positions = <2 5 8>;		bindings = <&kp UNDERSCORE >;};						//	_
-
-//		NUMBERS
-		combo_1				{timeout-ms = <500>;	key-positions = <0 9>;			bindings = <&kp NUMBER_1 >;};
-		combo_2				{timeout-ms = <500>;	key-positions = <1 9>;			bindings = <&kp NUMBER_2 >;};
-		combo_3				{timeout-ms = <500>;	key-positions = <2 9>;			bindings = <&kp NUMBER_3 >;};
-		combo_4				{timeout-ms = <500>;	key-positions = <3 9>;			bindings = <&kp NUMBER_4 >;};
-		combo_5				{timeout-ms = <500>;	key-positions = <4 9>;			bindings = <&kp NUMBER_5 >;};
-		combo_6				{timeout-ms = <500>;	key-positions = <5 9>;			bindings = <&kp NUMBER_6 >;};
-		combo_7				{timeout-ms = <500>;	key-positions = <6 9>;			bindings = <&kp NUMBER_7 >;};
-		combo_8				{timeout-ms = <500>;	key-positions = <7 9>;			bindings = <&kp NUMBER_8 >;};
-		combo_9				{timeout-ms = <500>;	key-positions = <1 2 9>;		bindings = <&kp NUMBER_9 >;};
-		combo_0				{timeout-ms = <500>;	key-positions = <5 6 9>;		bindings = <&kp NUMBER_0 >;};
-
-//		NAVIGATION
-		combo_PAGE_UP		{timeout-ms = <500>;	key-positions = <0 4 8>;		bindings = <&kp PAGE_UP >;};
-		combo_PAGE_DOWN		{timeout-ms = <500>;	key-positions = <0 4 9>;		bindings = <&kp PAGE_DOWN >;};
-		combo_HOME			{timeout-ms = <500>;	key-positions = <1 5 8>;		bindings = <&kp HOME >;};
-		combo_END			{timeout-ms = <500>;	key-positions = <1 5 9>;		bindings = <&kp END >;};
+		combo_ESCAPE		{timeout-ms = <500>;	key-positions = <8 9>;			bindings = <&kp ESCAPE >;};
 		
 //		MODIFIERS
 		combo_LCTRL			{timeout-ms = <500>;	key-positions = <0 4>;			bindings = <&kp LEFT_CONTROL >;};
 		combo_LSHFT			{timeout-ms = <500>;	key-positions = <1 5>;			bindings = <&kp LEFT_SHIFT >;};
 		combo_LALT			{timeout-ms = <500>;	key-positions = <3 7>;			bindings = <&kp LEFT_ALT >;};
-		combo_LGUI			{timeout-ms = <500>;	key-positions = <2 6>;			bindings = <&kp LEFT_WIN >;};
-		
+		combo_LGUI			{timeout-ms = <500>;	key-positions = <2 6>;			bindings = <&kp LEFT_WIN >;};		
 		combo_CTRLSHFT		{timeout-ms = <500>;	key-positions = <0 1 4 5>;		bindings = <&kp LC(LEFT_SHIFT) >;};
-		combo_CTRLALT		{timeout-ms = <500>;	key-positions = <0 3 4 7>;		bindings = <&kp LC(LEFT_ALT) >;};
-		combo_CTRLSHFTALT	{timeout-ms = <500>;	key-positions = <0 1 3 4 5 7>;	bindings = <&kp LC(LS(LEFT_ALT)) >;};
-		combo_SHFTALT		{timeout-ms = <500>;	key-positions = <1 3 5 7>;		bindings = <&kp LS(LEFT_ALT) >;};
-		combo_PSCRN			{timeout-ms = <500>;	key-positions = <2 6 8>;		bindings = <&kp PRINTSCREEN >;};
-		combo_ALTPSCRN		{timeout-ms = <500>;	key-positions = <2 6 9>;		bindings = <&kp LA(PRINTSCREEN) >;};
-		combo_CTRLGUI		{timeout-ms = <500>;	key-positions = <0 2 4 6>;		bindings = <&kp LC(LEFT_WIN) >;};
-		combo_GUIALT		{timeout-ms = <500>;	key-positions = <2 3 6 7>;		bindings = <&kp LA(LEFT_WIN) >;};
-//		combo_FN			{timeout-ms = <500>;	key-positions = <1 2 3 9>;		bindings = <&kp FN >;};
+		combo_CAPS			{timeout-ms = <500>;	key-positions = <1 5 9>;		bindings = <&kp CAPS>;};		
+
+
+
+//		NEAT SHORTCUTS
+		combo_CTRLDELETE	{timeout-ms = <500>;	key-positions = <0 1 2 9>;		bindings = <&kp LC(DELETE) >;};			//  Delete the Next word
+		combo_CTRLBACKSPACE	{timeout-ms = <500>;	key-positions = <1 2 3 9>;		bindings = <&kp LC(BACKSPACE)>;};		//  Delete the previous word
+		combo_SHIFTTAB		{timeout-ms = <500>;	key-positions = <4 5 6 9>;		bindings = <&kp LS(TAB) >;};			//  Shift tab - previous tab space
+		combo_CTRLALTDEL	{timeout-ms = <500>;	key-positions = <0 1 2 8 9>;	bindings = <&kp LC(LA(DELETE)) >;};		//	Control Alt Delete
+		combo_CTRL_F4		{timeout-ms = <500>;	key-positions = <0 4 8 9>;		bindings = <&kp LC(F4) >;};				//	Close tab
+		combo_ALT_F4		{timeout-ms = <500>;	key-positions = <3 7 8 9>;		bindings = <&kp LA(F4) >;};				//	Close program
+		combo_UNDO			{timeout-ms = <500>;	key-positions = <0 1 2 4 5 6>;	bindings = <&kp LC(Z)>;};				//	Undo
+		combo_REDO			{timeout-ms = <500>;	key-positions = <1 2 3 5 6 7>;	bindings = <&kp LC(Y)>;};				//	Redo
+		combo_BOLD			{timeout-ms = <500>;	key-positions = <0 1 4 9>;		bindings = <&kp LC(B)>;};				//	"
+		combo_ITALIC		{timeout-ms = <500>;	key-positions = <0 3 4 9>;		bindings = <&kp LC(I)>;};				//	"
+		combo_UNDERLINE		{timeout-ms = <500>;	key-positions = <0 2 4 9>;		bindings = <&kp LC(U)>;};				//	"
+
+//		COMPUTER POWER
+		combo_reset			{timeout-ms = <500>;	key-positions = <0 1 2 3 8>;	bindings = <&kp c_RESET>;};		//	"	527	0 1 2 3 9	
+		combo_lock			{timeout-ms = <500>;	key-positions = <0 1 2 3 9>;	bindings = <&kp C_AL_LOCK>;};		//	"	783	0 1 2 3 8 9	
+		combo_shutdown		{timeout-ms = <500>;	key-positions = <0 1 2 3 8 9>;	bindings = <&kp C_POWER>;};		//	"
+						
+
+//		RANDOM USEFUL MACROS
+		combo_MACRO1		{timeout-ms = <500>;	key-positions = <0 1 2 3 4 5 6 7>;		bindings = <&kp C >;};		//	
+		combo_MACRO2		{timeout-ms = <500>;	key-positions = <0 1 2 3>;				bindings = <&kp V >;};		//	
+
+
+//		LAYERS
+		combo_L0			{timeout-ms = <500>;	key-positions = <2 3 6 7>;		bindings = <&kp NUMBER_0>;};		//	NO THUMB - 
+		combo_L1			{timeout-ms = <500>;	key-positions = <2 3 6 7 9>;	bindings = <&kp NUMBER_1>;};		//	
+		combo_L2			{timeout-ms = <500>;	key-positions = <2 3 6 7 8>;	bindings = <&kp NUMBER_2>;};		//	
+		combo_L3			{timeout-ms = <500>;	key-positions = <2 3 6 7 8 9>;	bindings = <&kp NUMBER_3>;};		//	
+		combo_L4			{timeout-ms = <500>;	key-positions = <1 3 5 7>;		bindings = <&kp NUMBER_4>;};		//  NO THUMB - 
+		combo_L5			{timeout-ms = <500>;	key-positions = <1 3 5 7 9>;	bindings = <&kp NUMBER_5>;};		//	
+		combo_L6			{timeout-ms = <500>;	key-positions = <1 3 5 7 8>;	bindings = <&kp NUMBER_6>;};		//	
+		combo_L7			{timeout-ms = <500>;	key-positions = <1 3 5 7 8 9>;	bindings = <&kp NUMBER_7>;};		//	
+		combo_L8			{timeout-ms = <500>;	key-positions = <0 3 4 7>;		bindings = <&kp NUMBER_8>;};		//  NO THUMB - 
+		combo_L9			{timeout-ms = <500>;	key-positions = <0 3 4 7 9>;	bindings = <&kp NUMBER_9>;};		//	
+		combo_L10			{timeout-ms = <500>;	key-positions = <0 3 4 7 8>;	bindings = <&kp NUMBER_0>;};		//	
+		combo_L11			{timeout-ms = <500>;	key-positions = <0 3 4 7 8 9>;	bindings = <&kp NUMBER_0>;};		//	
+
+//		KEYBOARD CONTROL
+		combo_BT1			{timeout-ms = <500>;	key-positions = <0 1 2 3 4 5 6 7 11>;	bindings = <&bt BT_SEL 0>;};		//	
+		combo_BT2			{timeout-ms = <500>;	key-positions = <0 1 2 3 4 5 6 7 12>;	bindings = <&bt BT_SEL 2>;};		//	
+		combo_BT3			{timeout-ms = <500>;	key-positions = <0 1 2 3 4 5 6 7 13>;	bindings = <&bt BT_SEL 3>;};		//	
+		combo_BT4			{timeout-ms = <500>;	key-positions = <0 1 2 3 4 5 6 7 14>;	bindings = <&bt BT_SEL 4>;};		//	
+		combo_BT5			{timeout-ms = <500>;	key-positions = <0 1 2 3 4 5 6 7 10>;	bindings = <&bt BT_SEL 5>;};		//	
+		combo_ResetKB		{timeout-ms = <500>;	key-positions = <0 1 2 3 4 5 6 7 8 9>;	bindings = <&sys_reset>;};		//	
+		combo_BT			{timeout-ms = <500>;	key-positions = <0 1 2 3 4 5 6 7 9>;	bindings = <&out OUT_BLE>;};		//	
+		combo_USB			{timeout-ms = <500>;	key-positions = <0 1 2 3 4 5 6 7 8>;	bindings = <&out OUT_USB>;};		//	
+
 
 //		WORD PARTS
-		combo_able			{timeout-ms = <500>;	key-positions = <0 1 4 5 7>;	bindings = <&kp A &kp B &kp L &kp E >;};
-		combo_about			{timeout-ms = <500>;	key-positions = <0 1 4 5 6>;	bindings = <&kp A &kp B &kp O &kp U &kp T >;};
-		combo_ack			{timeout-ms = <500>;	key-positions = <3 4 5 7>;		bindings = <&kp A &kp C &kp K >;};
-		combo_aise			{timeout-ms = <500>;	key-positions = <1 3 4 7 8>;	bindings = <&kp A &kp I &kp S &kp E >;};
-		combo_ake			{timeout-ms = <500>;	key-positions = <3 4 5 7 8>;	bindings = <&kp A &kp K &kp E >;};
-		combo_al			{timeout-ms = <500>;	key-positions = <0 4 5 8>;		bindings = <&kp A &kp L >;};
-		combo_all			{timeout-ms = <500>;	key-positions = <0 4 5>;		bindings = <&kp A &kp L &kp L >;};
-		combo_ally			{timeout-ms = <500>;	key-positions = <2 3 4 5 9>;	bindings = <&kp A &kp L &kp L &kp Y >;};
-		combo_also			{timeout-ms = <500>;	key-positions = <1 4 5 6 7>;	bindings = <&kp A &kp L &kp S &kp O >;};
-		combo_and			{timeout-ms = <500>;	key-positions = <2 4 7>;		bindings = <&kp A &kp N &kp D >;};
-		combo_ange			{timeout-ms = <500>;	key-positions = <0 2 3 4 7>;	bindings = <&kp A &kp N &kp G &kp E >;};
-		combo_are			{timeout-ms = <500>;	key-positions = <0 4 7>;		bindings = <&kp A &kp R &kp E >;};
-		combo_ation			{timeout-ms = <500>;	key-positions = <2 3 4 5 6>;	bindings = <&kp A &kp T &kp I &kp O &kp N >;};
-		combo_ative			{timeout-ms = <500>;	key-positions = <1 3 4 6 7>;	bindings = <&kp A &kp T &kp I &kp V &kp E >;};
-		combo_ave			{timeout-ms = <500>;	key-positions = <1 4 7>;		bindings = <&kp A &kp V &kp E >;};
-		combo_be			{timeout-ms = <500>;	key-positions = <0 1 7 8>;		bindings = <&kp B &kp E >;};
-		combo_because		{timeout-ms = <500>;	key-positions = <0 1 4 5 6 7>;	bindings = <&kp B &kp E &kp C &kp A &kp U &kp S &kp E >;};
-		combo_ch			{timeout-ms = <500>;	key-positions = <5 6 7 8>;		bindings = <&kp C &kp H >;};
+		combo_able			{timeout-ms = <500>;	key-positions = <0 1 4 5 7>;	bindings = <&m_able >;};
+		combo_about			{timeout-ms = <500>;	key-positions = <0 1 4 5 6>;	bindings = <&m_about >;};
+		combo_ack			{timeout-ms = <500>;	key-positions = <3 4 5 7>;		bindings = <&m_ack >;};
+		combo_aise			{timeout-ms = <500>;	key-positions = <1 3 4 7 9>;	bindings = <&m_aise >;};
+		combo_ake			{timeout-ms = <500>;	key-positions = <3 4 5 7 9>;	bindings = <&m_ake >;};
+		combo_al			{timeout-ms = <500>;	key-positions = <0 4 5 9>;		bindings = <&m_al >;};
+		combo_all			{timeout-ms = <500>;	key-positions = <0 4 5>;		bindings = <&m_all >;};
+		combo_ally			{timeout-ms = <500>;	key-positions = <2 3 4 5 8>;	bindings = <&m_ally >;};
+		combo_also			{timeout-ms = <500>;	key-positions = <1 4 5 6 7>;	bindings = <&m_also >;};
+		combo_and			{timeout-ms = <500>;	key-positions = <2 4 7>;		bindings = <&m_and >;};
+		combo_ange			{timeout-ms = <500>;	key-positions = <0 2 3 4 7>;	bindings = <&m_ange >;};
+		combo_are			{timeout-ms = <500>;	key-positions = <0 4 7>;		bindings = <&m_are >;};
+		combo_ation			{timeout-ms = <500>;	key-positions = <2 3 4 5 6>;	bindings = <&m_ation >;};
+		combo_ative			{timeout-ms = <500>;	key-positions = <1 3 4 6 7>;	bindings = <&m_ative >;};
+		combo_ave			{timeout-ms = <500>;	key-positions = <1 4 7>;		bindings = <&m_ave >;};
+		combo_be			{timeout-ms = <500>;	key-positions = <0 1 7 9>;		bindings = <&m_be >;};
+		combo_because		{timeout-ms = <500>;	key-positions = <0 1 4 5 6 7>;	bindings = <&m_because >;};
+		combo_ch			{timeout-ms = <500>;	key-positions = <5 6 7 9>;		bindings = <&kp C &kp H >;};
 		combo_day			{timeout-ms = <500>;	key-positions = <2 3 4 7>;		bindings = <&kp D &kp A &kp Y >;};
 		combo_dis			{timeout-ms = <500>;	key-positions = <1 3 4 7>;		bindings = <&kp D &kp I &kp S >;};
 		combo_each			{timeout-ms = <500>;	key-positions = <4 5 6 7>;		bindings = <&kp E &kp A &kp C &kp H >;};
 		combo_eal			{timeout-ms = <500>;	key-positions = <4 5 7>;		bindings = <&kp E &kp A &kp L >;};
-		combo_ear			{timeout-ms = <500>;	key-positions = <0 4 7 8>;		bindings = <&kp E &kp A &kp R >;};
-		combo_een			{timeout-ms = <500>;	key-positions = <2 6 7 8>;		bindings = <&kp E &kp E &kp N >;};
+		combo_ear			{timeout-ms = <500>;	key-positions = <0 4 7 9>;		bindings = <&kp E &kp A &kp R >;};
+		combo_een			{timeout-ms = <500>;	key-positions = <2 6 7 9>;		bindings = <&kp E &kp E &kp N >;};
 		combo_eir			{timeout-ms = <500>;	key-positions = <0 3 7>;		bindings = <&kp E &kp I &kp R >;};
 		combo_ent			{timeout-ms = <500>;	key-positions = <2 6 7>;		bindings = <&kp E &kp N &kp T >;};
-		combo_ere			{timeout-ms = <500>;	key-positions = <0 6 7 8>;		bindings = <&kp E &kp R &kp E >;};
+		combo_ere			{timeout-ms = <500>;	key-positions = <0 6 7 9>;		bindings = <&kp E &kp R &kp E >;};
 		combo_ess			{timeout-ms = <500>;	key-positions = <1 2 7>;		bindings = <&kp E &kp S &kp S >;};
 		combo_ever			{timeout-ms = <500>;	key-positions = <0 1 7>;		bindings = <&kp E &kp V &kp E &kp R >;};
 		combo_every			{timeout-ms = <500>;	key-positions = <0 1 2 3 7>;	bindings = <&kp E &kp V &kp E &kp R &kp Y >;};
 		combo_for			{timeout-ms = <500>;	key-positions = <0 1 3 5>;		bindings = <&kp F &kp O &kp R >;};
 		combo_from			{timeout-ms = <500>;	key-positions = <0 1 3 5 7>;	bindings = <&kp F &kp R &kp O &kp M >;};
-		combo_has			{timeout-ms = <500>;	key-positions = <1 4 6 7 8>;	bindings = <&kp H &kp A &kp S >;};
+		combo_has			{timeout-ms = <500>;	key-positions = <1 4 6 7 9>;	bindings = <&kp H &kp A &kp S >;};
 		combo_have			{timeout-ms = <500>;	key-positions = <1 4 6 7>;		bindings = <&kp H &kp A &kp V &kp E >;};
-		combo_ible			{timeout-ms = <500>;	key-positions = <0 1 4 5 7 8>;	bindings = <&kp I &kp B &kp L &kp E >;};
+		combo_ible			{timeout-ms = <500>;	key-positions = <0 1 4 5 7 9>;	bindings = <&kp I &kp B &kp L &kp E >;};
 		combo_ice			{timeout-ms = <500>;	key-positions = <3 5 7>;		bindings = <&kp I &kp C &kp E >;};
 		combo_ich			{timeout-ms = <500>;	key-positions = <0 3 4 5 6 7>;	bindings = <&kp I &kp C &kp H >;};
-		combo_ies			{timeout-ms = <500>;	key-positions = <1 3 7 8>;		bindings = <&kp I &kp E &kp S >;};
+		combo_ies			{timeout-ms = <500>;	key-positions = <1 3 7 9>;		bindings = <&kp I &kp E &kp S >;};
 		combo_igh			{timeout-ms = <500>;	key-positions = <0 3 6 7>;		bindings = <&kp I &kp G &kp H >;};
-		combo_ight			{timeout-ms = <500>;	key-positions = <0 3 6 7 8>;	bindings = <&kp I &kp G &kp H &kp T >;};
-		combo_ind			{timeout-ms = <500>;	key-positions = <2 3 4 7 8>;	bindings = <&kp I &kp N &kp D >;};
+		combo_ight			{timeout-ms = <500>;	key-positions = <0 3 6 7 9>;	bindings = <&kp I &kp G &kp H &kp T >;};
+		combo_ind			{timeout-ms = <500>;	key-positions = <2 3 4 7 9>;	bindings = <&kp I &kp N &kp D >;};
 		combo_ine			{timeout-ms = <500>;	key-positions = <3 6 7>;		bindings = <&kp I &kp N &kp E >;};
 		combo_ing			{timeout-ms = <500>;	key-positions = <0 2 3>;		bindings = <&kp I &kp N &kp G >;};
 		combo_ion			{timeout-ms = <500>;	key-positions = <2 3 5>;		bindings = <&kp I &kp O &kp N >;};
@@ -252,25 +415,25 @@
 		combo_ise			{timeout-ms = <500>;	key-positions = <1 3 7>;		bindings = <&kp I &kp S &kp E >;};
 		combo_ism			{timeout-ms = <500>;	key-positions = <0 2 7>;		bindings = <&kp I &kp S &kp M >;};
 		combo_ist			{timeout-ms = <500>;	key-positions = <1 3 6>;		bindings = <&kp I &kp S &kp T >;};
-		combo_ive			{timeout-ms = <500>;	key-positions = <1 3 7 9>;		bindings = <&kp I &kp V &kp E >;};
-		combo_ld			{timeout-ms = <500>;	key-positions = <4 5 7 8>;		bindings = <&kp L &kp D >;};
-		combo_less			{timeout-ms = <500>;	key-positions = <1 2 7 9>;		bindings = <&kp L &kp E &kp S &kp S >;};
-		combo_lly			{timeout-ms = <500>;	key-positions = <2 3 4 5 8>;	bindings = <&kp L &kp L &kp Y >;};
+		combo_ive			{timeout-ms = <500>;	key-positions = <1 3 7 8>;		bindings = <&kp I &kp V &kp E >;};
+		combo_ld			{timeout-ms = <500>;	key-positions = <4 5 7 9>;		bindings = <&kp L &kp D >;};
+		combo_less			{timeout-ms = <500>;	key-positions = <1 2 7 8>;		bindings = <&kp L &kp E &kp S &kp S >;};
+		combo_lly			{timeout-ms = <500>;	key-positions = <2 3 4 5 9>;	bindings = <&kp L &kp L &kp Y >;};
 		combo_ly			{timeout-ms = <500>;	key-positions = <2 3 4 5>;		bindings = <&kp L &kp Y >;};
 		combo_ment			{timeout-ms = <500>;	key-positions = <0 2 6 7>;		bindings = <&kp M &kp E &kp N &kp T >;};
-		combo_ness			{timeout-ms = <500>;	key-positions = <1 2 7 8>;		bindings = <&kp N &kp E &kp S &kp S >;};
+		combo_ness			{timeout-ms = <500>;	key-positions = <1 2 7 9>;		bindings = <&kp N &kp E &kp S &kp S >;};
 		combo_obvious		{timeout-ms = <500>;	key-positions = <0 1 3 5 6 7>;	bindings = <&kp O &kp B &kp V &kp I &kp O &kp U &kp S >;};
-		combo_ock			{timeout-ms = <500>;	key-positions = <3 5 7 8>;		bindings = <&kp O &kp C &kp K >;};
-		combo_oint			{timeout-ms = <500>;	key-positions = <2 3 5 6 8>;	bindings = <&kp O &kp I &kp N &kp T >;};
+		combo_ock			{timeout-ms = <500>;	key-positions = <3 5 7 9>;		bindings = <&kp O &kp C &kp K >;};
+		combo_oint			{timeout-ms = <500>;	key-positions = <2 3 5 6 9>;	bindings = <&kp O &kp I &kp N &kp T >;};
 		combo_ome			{timeout-ms = <500>;	key-positions = <0 5 7>;		bindings = <&kp O &kp M &kp E >;};
 		combo_one			{timeout-ms = <500>;	key-positions = <2 5 7>;		bindings = <&kp O &kp N &kp E >;};
 		combo_ook			{timeout-ms = <500>;	key-positions = <1 3 5>;		bindings = <&kp O &kp O &kp K >;};
-		combo_ore			{timeout-ms = <500>;	key-positions = <0 5 7 8>;		bindings = <&kp O &kp R &kp E >;};
+		combo_ore			{timeout-ms = <500>;	key-positions = <0 5 7 9>;		bindings = <&kp O &kp R &kp E >;};
 		combo_ose			{timeout-ms = <500>;	key-positions = <1 5 7>;		bindings = <&kp O &kp S &kp E >;};
 		combo_other			{timeout-ms = <500>;	key-positions = <0 5 6 7>;		bindings = <&kp O &kp T &kp H &kp E &kp R >;};
 		combo_ough			{timeout-ms = <500>;	key-positions = <0 3 5 6 7>;	bindings = <&kp O &kp U &kp G &kp H >;};
-		combo_ought			{timeout-ms = <500>;	key-positions = <0 3 5 6 7 8>;	bindings = <&kp O &kp U &kp G &kp H &kp T >;};
-		combo_ould			{timeout-ms = <500>;	key-positions = <4 5 6 7 8>;	bindings = <&kp O &kp U &kp L &kp D >;};
+		combo_ought			{timeout-ms = <500>;	key-positions = <0 3 5 6 7 9>;	bindings = <&kp O &kp U &kp G &kp H &kp T >;};
+		combo_ould			{timeout-ms = <500>;	key-positions = <4 5 6 7 9>;	bindings = <&kp O &kp U &kp L &kp D >;};
 		combo_our			{timeout-ms = <500>;	key-positions = <0 5 6>;		bindings = <&kp O &kp U &kp R >;};
 		combo_ous			{timeout-ms = <500>;	key-positions = <1 5 6>;		bindings = <&kp O &kp U &kp S >;};
 		combo_ouse			{timeout-ms = <500>;	key-positions = <1 5 6 7>;		bindings = <&kp O &kp U &kp S &kp E >;};
@@ -279,30 +442,30 @@
 		combo_pre			{timeout-ms = <500>;	key-positions = <0 1 2 7>;		bindings = <&kp P &kp R &kp E >;};
 		combo_pro			{timeout-ms = <500>;	key-positions = <0 1 2 5>;		bindings = <&kp P &kp R &kp O >;};
 		combo_psy			{timeout-ms = <500>;	key-positions = <1 2 3 6>;		bindings = <&kp P &kp S &kp Y >;};
-		combo_psych			{timeout-ms = <500>;	key-positions = <1 2 3 6 8>;	bindings = <&kp P &kp S &kp Y &kp C &kp H >;};
+		combo_psych			{timeout-ms = <500>;	key-positions = <1 2 3 6 9>;	bindings = <&kp P &kp S &kp Y &kp C &kp H >;};
 		combo_rst			{timeout-ms = <500>;	key-positions = <0 1 6>;		bindings = <&kp R &kp S &kp T >;};
 		combo_sh			{timeout-ms = <500>;	key-positions = <1 6 7>;		bindings = <&kp S &kp H >;};
-		combo_sm			{timeout-ms = <500>;	key-positions = <0 1 7 9>;		bindings = <&kp S &kp M >;};
+		combo_sm			{timeout-ms = <500>;	key-positions = <0 1 7 8>;		bindings = <&kp S &kp M >;};
 		combo_than			{timeout-ms = <500>;	key-positions = <2 4 6 7>;		bindings = <&kp T &kp H &kp A &kp N >;};
 		combo_that			{timeout-ms = <500>;	key-positions = <4 6 7>;		bindings = <&kp T &kp H &kp A &kp T >;};
-		combo_then			{timeout-ms = <500>;	key-positions = <2 4 6 7 8>;	bindings = <&kp T &kp H &kp E &kp N >;};
+		combo_then			{timeout-ms = <500>;	key-positions = <2 4 6 7 9>;	bindings = <&kp T &kp H &kp E &kp N >;};
 		combo_there			{timeout-ms = <500>;	key-positions = <0 6 7>;		bindings = <&kp T &kp H &kp E &kp R &kp E >;};
-		combo_these			{timeout-ms = <500>;	key-positions = <1 6 7 8>;		bindings = <&kp T &kp H &kp E &kp S &kp E >;};
-		combo_thin			{timeout-ms = <500>;	key-positions = <2 6 7 9>;		bindings = <&kp T &kp H &kp I &kp N >;};
+		combo_these			{timeout-ms = <500>;	key-positions = <1 6 7 9>;		bindings = <&kp T &kp H &kp E &kp S &kp E >;};
+		combo_thin			{timeout-ms = <500>;	key-positions = <2 6 7 8>;		bindings = <&kp T &kp H &kp I &kp N >;};
 		combo_this			{timeout-ms = <500>;	key-positions = <1 3 6 7>;		bindings = <&kp T &kp H &kp I &kp S >;};
-		combo_thr			{timeout-ms = <500>;	key-positions = <0 6 7 9>;		bindings = <&kp T &kp H &kp R >;};
+		combo_thr			{timeout-ms = <500>;	key-positions = <0 6 7 8>;		bindings = <&kp T &kp H &kp R >;};
 		combo_tion			{timeout-ms = <500>;	key-positions = <2 3 5 6>;		bindings = <&kp T &kp I &kp O &kp N >;};
-		combo_tive			{timeout-ms = <500>;	key-positions = <1 3 6 7 8>;	bindings = <&kp T &kp I &kp V &kp E >;};
-		combo_ttle			{timeout-ms = <500>;	key-positions = <4 5 6 7 9>;	bindings = <&kp T &kp T &kp L &kp E >;};
-		combo_uch			{timeout-ms = <500>;	key-positions = <5 6 7 9>;		bindings = <&kp U &kp C &kp H >;};
-		combo_uous			{timeout-ms = <500>;	key-positions = <1 5 6 8>;		bindings = <&kp U &kp O &kp U &kp S >;};
+		combo_tive			{timeout-ms = <500>;	key-positions = <1 3 6 7 9>;	bindings = <&kp T &kp I &kp V &kp E >;};
+		combo_ttle			{timeout-ms = <500>;	key-positions = <4 5 6 7 8>;	bindings = <&kp T &kp T &kp L &kp E >;};
+		combo_uch			{timeout-ms = <500>;	key-positions = <5 6 7 8>;		bindings = <&kp U &kp C &kp H >;};
+		combo_uous			{timeout-ms = <500>;	key-positions = <1 5 6 9>;		bindings = <&kp U &kp O &kp U &kp S >;};
 		combo_was			{timeout-ms = <500>;	key-positions = <1 3 4>;		bindings = <&kp W &kp A &kp S >;};
 		combo_we			{timeout-ms = <500>;	key-positions = <3 4 7>;		bindings = <&kp W &kp E >;};
-		combo_wh			{timeout-ms = <500>;	key-positions = <3 4 7 8>;		bindings = <&kp W &kp H >;};
-		combo_what			{timeout-ms = <500>;	key-positions = <3 4 6 7 8>;	bindings = <&kp W &kp H &kp A &kp T >;};
+		combo_wh			{timeout-ms = <500>;	key-positions = <3 4 7 9>;		bindings = <&kp W &kp H >;};
+		combo_what			{timeout-ms = <500>;	key-positions = <3 4 6 7 9>;	bindings = <&kp W &kp H &kp A &kp T >;};
 		combo_when			{timeout-ms = <500>;	key-positions = <2 3 4 6 7>;	bindings = <&kp W &kp H &kp E &kp N >;};
 		combo_with			{timeout-ms = <500>;	key-positions = <3 4 6 7>;		bindings = <&kp W &kp I &kp T &kp H >;};
-		combo_your			{timeout-ms = <500>;	key-positions = <0 5 6 8>;		bindings = <&kp Y &kp O &kp U &kp R >;};
+		combo_your			{timeout-ms = <500>;	key-positions = <0 5 6 9>;		bindings = <&kp Y &kp O &kp U &kp R >;};
 		
 		};
 
