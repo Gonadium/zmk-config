@@ -331,7 +331,7 @@
 
 //		COMPUTER POWER
 		combo_reset			{timeout-ms = <500>;	key-positions = <0 1 2 3 8>;	bindings = <&c_RESET>;};		//	"	527	0 1 2 3 9	
-		combo_lock			{timeout-ms = <500>;	key-positions = <0 1 2 3 9>;	bindings = <&C_AL_LOCK>;};		//	"	783	0 1 2 3 8 9	
+		combo_lock			{timeout-ms = <500>;	key-positions = <0 1 2 3 9>;	bindings = <&kp LG(L) >;};		//	"	783	0 1 2 3 8 9	
 		combo_shutdown		{timeout-ms = <500>;	key-positions = <0 1 2 3 8 9>;	bindings = <&C_POWER>;};		//	"
 						
 
