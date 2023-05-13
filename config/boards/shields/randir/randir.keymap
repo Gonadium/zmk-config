@@ -360,9 +360,9 @@
 		combo_BT3			{timeout-ms = <500>;	key-positions = <0 1 2 3 4 5 6 7 13>;	bindings = <&bt BT_SEL 3>;};		//	
 		combo_BT4			{timeout-ms = <500>;	key-positions = <0 1 2 3 4 5 6 7 14>;	bindings = <&bt BT_SEL 4>;};		//	
 		combo_BT5			{timeout-ms = <500>;	key-positions = <0 1 2 3 4 5 6 7 10>;	bindings = <&bt BT_SEL 5>;};		//	
-		combo_ResetKB		{timeout-ms = <500>;	key-positions = <0 1 2 3 4 5 6 7 8 9>;	bindings = <&sys_reset>;};		//	
-		combo_BT			{timeout-ms = <500>;	key-positions = <0 1 2 3 4 5 6 7 9>;	bindings = <&out OUT_BLE>;};		//	
-		combo_USB			{timeout-ms = <500>;	key-positions = <0 1 2 3 4 5 6 7 8>;	bindings = <&out OUT_USB>;};		//	
+		combo_ResetKB		{timeout-ms = <500>;	key-positions = <0 1 2 3 4 5 6 7 8 9>;	bindings = <&bootloader >;};		//	
+		combo_BT			{timeout-ms = <500>;	key-positions = <0 1 2 3 4 5 6 7 9>;	bindings = <&out OUT_BLE >;};		//	
+		combo_USB			{timeout-ms = <500>;	key-positions = <0 1 2 3 4 5 6 7 8>;	bindings = <&out OUT_USB >;};		//	
 
 
 //		WORD PARTS
