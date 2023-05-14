@@ -196,7 +196,7 @@
 		combo_x				{timeout-ms = <500>;	key-positions = <0 6>;			bindings = <&kp X >;};
 		combo_y				{timeout-ms = <500>;	key-positions = <2 3>;			bindings = <&kp Y >;};
 		combo_z				{timeout-ms = <500>;	key-positions = <0 2>;			bindings = <&kp Z >;};
-eachh
+
 
 //		UPPERCASE LETTERS
 		combo_upper_A		{timeout-ms = <500>;	key-positions = <4 9>;			bindings = <&kp LS(A) >;};
