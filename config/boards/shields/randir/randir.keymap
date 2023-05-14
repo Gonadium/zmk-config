@@ -325,6 +325,12 @@ eachh
 		combo_ALT_F4		{timeout-ms = <500>;	key-positions = <3 7 8 9>;		bindings = <&kp LA(F4) >;};				//	Close program
 		combo_UNDO			{timeout-ms = <500>;	key-positions = <0 1 2 4 5 6>;	bindings = <&kp LC(Z)>;};				//	Undo
 		combo_REDO			{timeout-ms = <500>;	key-positions = <1 2 3 5 6 7>;	bindings = <&kp LC(Y)>;};				//	Redo
+		combo_COPY			{timeout-ms = <500>;	key-positions = <0 2 4>;		bindings = <&kp LC(C)>;};				//	"
+		combo_CUT			{timeout-ms = <500>;	key-positions = <0 1 4>;		bindings = <&kp LC(X)>;};		//	"
+		combo_PASTE			{timeout-ms = <500>;	key-positions = <0 3 4>;		bindings = <&kp LC(V)>;};		//	"
+
+
+
 		combo_BOLD			{timeout-ms = <500>;	key-positions = <0 1 4 9>;		bindings = <&kp LC(B)>;};				//	"
 		combo_ITALIC		{timeout-ms = <500>;	key-positions = <0 3 4 9>;		bindings = <&kp LC(I)>;};				//	"
 		combo_UNDERLINE		{timeout-ms = <500>;	key-positions = <0 2 4 9>;		bindings = <&kp LC(U)>;};				//	"
