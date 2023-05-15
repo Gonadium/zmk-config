@@ -481,27 +481,17 @@
 		
 		};
 
-	gqt: global-quick-tap {
-		compatible = "zmk,behavior-hold-tap";
-		label = "GLOBAL_QUICK_TAP";
-		#binding-cells = <2>;
-		flavor = "hold-preferred";
-		tapping-term-ms = <1>;
-		quick-tap-ms = <1>;
-		global-quick-tap;
-		bindings = <&kp>, <&kp>;
-		hold-trigger-key-positions = <1>;
-	};
 	
 	keymap {
 		compatible = "zmk,keymap";
+		tapping-term-ms = <20>;
 		default_layer {
 			bindings = <
 				&kp R	&kp S	&kp N	&kp I
 				&kp A	&kp O	&kp T	&kp E 
 												&kp SPACE	&kp SPACE
 												
-												&gqt UP UP
+												&kp UP
 									&kp LEFT	&kp C		&kp RIGHT
 												&kp DOWN
 				>;
