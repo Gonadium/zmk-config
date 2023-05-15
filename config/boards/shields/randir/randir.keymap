@@ -232,7 +232,7 @@
 		combo_EXCLAMATION	{timeout-ms = <500>;	key-positions = <0 5 9>;		bindings = <&kp EXCLAMATION >;};					//	!
 		combo_DOT			{timeout-ms = <500>;	key-positions = <3 6>;			bindings = <&kp DOT >;};							//	.
 		combo_COMMA			{timeout-ms = <500>;	key-positions = <2 7>;			bindings = <&kp COMMA >;};							//	,
-		combo_COLON			{timeout-ms = <500>;	key-positions = <0 5 9>;		bindings = <&kp COLON >;};							//	:
+		combo_COLON			{timeout-ms = <500>;	key-positions = <3 6 9>;		bindings = <&kp COLON >;};							//	:
 		combo_SEMICOLON		{timeout-ms = <500>;	key-positions = <2 7 9>;		bindings = <&kp SEMICOLON >;};						//	;
 		combo_APOSTROPHE	{timeout-ms = <500>;	key-positions = <1 4>;			bindings = <&kp APOSTROPHE >;};						//	'
 		combo_DOUBLE_QUOTES	{timeout-ms = <500>;	key-positions = <1 4 9>;		bindings = <&kp DOUBLE_QUOTES >;};					//	"
