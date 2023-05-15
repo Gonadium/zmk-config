@@ -35,6 +35,7 @@
 
 //		RESPONSIVE ARROWS
 		ZMK_MACRO(m_UP,				w	ait-ms = <5>;	tap-ms = <5>;		bindings = <&macro_press	&kp UP>
+																				, <&macro_tap			&kp UP>
     																			, <&macro_release		&kp UP>;)
 
 //		RANDOM MACROS
