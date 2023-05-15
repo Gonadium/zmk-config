@@ -33,6 +33,10 @@
     																			, <&macro_release		&kp LALT>;)
 		ZMK_MACRO(m_textIndent,			wait-ms = <5>;	tap-ms = <5>;		bindings = <&kp SPACE &kp MINUS &kp SPACE &kp HOME &kp DOWN >;)		
 
+//		RESPONSIVE ARROWS
+		ZMK_MACRO(m_UP,				w	ait-ms = <5>;	tap-ms = <5>;		bindings = <&macro_press	&kp UP>
+    																			, <&macro_release		&kp UP>;)
+
 //		RANDOM MACROS
 		ZMK_MACRO(m_password1,			wait-ms = <5>;	tap-ms = <5>;		bindings = <&kp A &kp B &kp O &kp U &kp T >;)
 		ZMK_MACRO(m_password2,				wait-ms = <5>;	tap-ms = <5>;		bindings = <&kp A &kp B &kp O &kp U &kp T >;)
@@ -485,7 +489,7 @@
 				&kp A	&kp O	&kp T	&kp E 
 												&kp SPACE	&kp SPACE
 												
-												&kp UP
+												&m_UP
 									&kp LEFT	&kp C		&kp RIGHT
 												&kp DOWN
 				>;
