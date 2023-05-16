@@ -1,0 +1,70 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <dt-bindings/zmk/matrix_transform.h>
+
+/ {
+
+	chosen {
+		zmk,kscan = &kscan0;
+	};
+
+//	Pin map							
+//	┌────┬────┬────┬────┐
+//	| 9  | 8  | 7  | 6  |
+//	├────┼────┼────┼────┤
+//	| 16 | 14 | 15 | 18 |
+//	└────┴────┴────┴────┼────┬────┐
+//			  	    	| 0  | 1  |
+//			    		└────┴────┘
+//		            ┌────┐
+//			    	| 19 | 
+//		       ┌────┼────┼────┐
+//		       | 5  | 21 | 4  |
+//		       └────┴────┴────┘
+//			    	| 2  | 
+//			    	└────┘
+//
+
+
+	kscan0: kscan {
+		compatible = "zmk,kscan-gpio-direct";
+		label = "KSCAN";
+		input-gpios 
+		= <&pro_micro 9  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW0 - r
+		, <&pro_micro 8  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW1 - a
+		, <&pro_micro 7  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW2 - n
+		, <&pro_micro 6  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW3 - i
+		, <&pro_micro 16 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW4 - o
+		, <&pro_micro 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW5 - s
+		, <&pro_micro 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW6 - t
+		, <&pro_micro 18 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW7 - e
+		, <&pro_micro 0  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW8 - Space
+		, <&pro_micro 1  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW9 - Space
+		, <&pro_micro 19 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW10 - Nav - up
+		, <&pro_micro 4  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW11 - Nav - left
+		, <&pro_micro 21 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW12 - Nav - Centre 
+		, <&pro_micro 5  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW13 - Nav - right
+		, <&pro_micro 2  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>	//	SW14 - Nav - down
+		;
+	};
+	
+	
+	left_encoder: encoder_left {
+		compatible = "alps,ec11";
+		label = "LEFT_ENCODER";
+		a-gpios = <&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		b-gpios = <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		resolution = <4>;
+		status = "okay";
+    	};
+	
+	sensors {
+		compatible = "zmk,keymap-sensors";
+		sensors = <&left_encoder>;
+    	};
+};
+

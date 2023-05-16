@@ -1,6 +1,13 @@
-if SHIELD_RANDIR
+if SHIELD_RANDIR_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Randir"
+    default "Randir Left"
+
+endif
+
+if SHIELD_RANDIR_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "Randir Right"
 
 endif
