@@ -42,7 +42,7 @@
 		ZMK_MACRO(m_password1,			wait-ms = <5>;	tap-ms = <5>;		bindings = <&kp A &kp B &kp O &kp U &kp T >;)
 		ZMK_MACRO(m_password2,				wait-ms = <5>;	tap-ms = <5>;		bindings = <&kp A &kp B &kp O &kp U &kp T >;)
 
-/*
+
 //		WORD PARTS		
 		ZMK_MACRO(m_able,				wait-ms = <5>;	tap-ms = <5>;		bindings = <&kp A &kp B &kp L &kp E >;)
 		ZMK_MACRO(m_about,				wait-ms = <5>;	tap-ms = <5>;		bindings = <&kp A &kp B &kp O &kp U &kp T >;)
@@ -161,7 +161,7 @@
 		ZMK_MACRO(m_when,				wait-ms = <5>;	tap-ms = <5>;		bindings = <&kp W &kp H &kp E &kp N >;)
 		ZMK_MACRO(m_with,				wait-ms = <5>;	tap-ms = <5>;		bindings = <&kp W &kp I &kp T &kp H >;)
 		ZMK_MACRO(m_your,				wait-ms = <5>;	tap-ms = <5>;		bindings = <&kp Y &kp O &kp U &kp R >;)
-*/
+
 	};
 
 	combos {
@@ -377,7 +377,7 @@
 		combo_BT			{timeout-ms = <500>;	key-positions = <0 1 2 3 4 5 6 7 9>;	bindings = <&out OUT_BLE >;};		//	
 		combo_USB			{timeout-ms = <500>;	key-positions = <0 1 2 3 4 5 6 7 8>;	bindings = <&out OUT_USB >;};		//	
 
-/*
+
 //		WORD PARTS
 		combo_able			{timeout-ms = <500>;	key-positions = <0 1 4 5 7>;	bindings = <&m_able >;};
 		combo_about			{timeout-ms = <500>;	key-positions = <0 1 4 5 6>;	bindings = <&m_about >;};
@@ -479,7 +479,7 @@
 		combo_when			{timeout-ms = <500>;	key-positions = <2 3 4 6 7>;	bindings = <&m_when >;};
 		combo_with			{timeout-ms = <500>;	key-positions = <3 4 6 7>;		bindings = <&m_with >;};
 		combo_your			{timeout-ms = <500>;	key-positions = <0 5 6 9>;		bindings = <&m_your >;};
-*/	
+
 		};
 
 	
