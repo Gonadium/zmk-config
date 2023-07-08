@@ -492,7 +492,7 @@
 			bindings = <
 				&kp R	&kp S	&kp N	&kp I
 				&kp A	&kp O	&kp T	&kp E 
-												&kp LC(BACKSPACE)	&kp SPACE
+												&kp SPACE	&kp LC(BACKSPACE)	
 												
 												&kp UP
 									&kp LEFT	&kp C		&kp RIGHT
