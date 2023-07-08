@@ -183,7 +183,7 @@
 //		       └────┴────┴────┘
 //			    	| 14 | 
 //			    	└────┘
-//
+// 
 //		LOWERCASE LETTERS
 		combo_b				{timeout-ms = <500>;	key-positions = <0 1>;			bindings = <&kp B >;};
 		combo_c				{timeout-ms = <500>;	key-positions = <5 7>;			bindings = <&kp C >;};
