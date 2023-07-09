@@ -313,7 +313,7 @@
 		combo_TAB			{timeout-ms = <500>;	key-positions = <4 5 6>;		bindings = <&kp TAB >;};
 		combo_BACKSPACE		{timeout-ms = <500>;	key-positions = <1 2 3>;		bindings = <&kp LC(BACKSPACE) >;};
 		combo_DELETE		{timeout-ms = <500>;	key-positions = <0 1 2>;		bindings = <&kp DELETE >;};
-		combo_ESCAPE		{timeout-ms = <500>;	key-positions = <8 8>;			bindings = <&kp ESCAPE >;};
+		combo_ESCAPE		{timeout-ms = <500>;	key-positions = <0 1 2 4>;		bindings = <&kp ESCAPE >;};
 		
 //		MODIFIERS
 		combo_LCTRL			{timeout-ms = <500>;	key-positions = <0 4>;			bindings = <&kp LEFT_CONTROL >;};
