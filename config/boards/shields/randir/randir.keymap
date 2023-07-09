@@ -407,7 +407,7 @@
 		combo_ear			{timeout-ms = <500>;	key-positions = <0 4 7 8>;		bindings = <&m_ear >;};
 		combo_een			{timeout-ms = <500>;	key-positions = <2 6 7 8>;		bindings = <&m_een >;};
 		combo_eir			{timeout-ms = <500>;	key-positions = <0 3 7>;		bindings = <&m_eir >;};
-		combo_end			{timeout-ms = <500>;	key-positions = <2 4 7 8>;		bindings = <&m_end >;};
+		combo_end2			{timeout-ms = <500>;	key-positions = <2 4 7 8>;		bindings = <&m_end >;};
 		combo_ent			{timeout-ms = <500>;	key-positions = <2 6 7>;		bindings = <&m_ent >;};
 		combo_ere			{timeout-ms = <500>;	key-positions = <0 6 7 8>;		bindings = <&m_ere >;};
 		combo_ess			{timeout-ms = <500>;	key-positions = <1 2 7>;		bindings = <&m_ess >;};
