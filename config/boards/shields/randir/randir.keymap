@@ -94,6 +94,7 @@
 		ZMK_MACRO(m_ight,				wait-ms = <5>;	tap-ms = <5>;		bindings = <&kp I &kp G &kp H &kp T >;)
 		ZMK_MACRO(m_ind,				wait-ms = <5>;	tap-ms = <5>;		bindings = <&kp I &kp N &kp D >;)
 		ZMK_MACRO(m_ine,				wait-ms = <5>;	tap-ms = <5>;		bindings = <&kp I &kp N &kp E >;)
+		ZMK_MACRO(m_ince,				wait-ms = <5>;	tap-ms = <5>;		bindings = <&kp I &kp N &kp C  &kp E >;)
 		ZMK_MACRO(m_ing,				wait-ms = <5>;	tap-ms = <5>;		bindings = <&kp I &kp N &kp G >;)
 		ZMK_MACRO(m_ion,				wait-ms = <5>;	tap-ms = <5>;		bindings = <&kp I &kp O &kp N >;)
 		ZMK_MACRO(m_ious,				wait-ms = <5>;	tap-ms = <5>;		bindings = <&kp I &kp O &kp U &kp S >;)
@@ -425,6 +426,7 @@
 		combo_ight			{timeout-ms = <500>;	key-positions = <0 3 6 7 8>;	bindings = <&m_ight >;};
 		combo_ind			{timeout-ms = <500>;	key-positions = <2 3 4 7 8>;	bindings = <&m_ind >;};
 		combo_ine			{timeout-ms = <500>;	key-positions = <3 6 7>;		bindings = <&m_ine >;};
+		combo_ince			{timeout-ms = <500>;	key-positions = <3 5 6 7>;		bindings = <&m_ince >;};
 		combo_ing			{timeout-ms = <500>;	key-positions = <0 2 3>;		bindings = <&m_ing >;};
 		combo_ion			{timeout-ms = <500>;	key-positions = <2 3 5>;		bindings = <&m_ion >;};
 		combo_ious			{timeout-ms = <500>;	key-positions = <0 1 5 6>;		bindings = <&m_ious >;};
