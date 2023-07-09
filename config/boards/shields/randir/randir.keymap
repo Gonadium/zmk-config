@@ -310,7 +310,7 @@
 //		CONTROL AND WHITESPACES
 		combo_ENTER			{timeout-ms = <500>;	key-positions = <5 6 7>;		bindings = <&kp ENTER >;};
 		combo_TAB			{timeout-ms = <500>;	key-positions = <4 5 6>;		bindings = <&kp TAB >;};
-		combo_BACKSPACE		{timeout-ms = <500>;	key-positions = <1 2 3>;		bindings = <&kp BACKSPACE >;};
+		combo_BACKSPACE		{timeout-ms = <500>;	key-positions = <1 2 3>;		bindings = <&kp LC(BACKSPACE) >;};
 		combo_DELETE		{timeout-ms = <500>;	key-positions = <0 1 2>;		bindings = <&kp DELETE >;};
 		combo_ESCAPE		{timeout-ms = <500>;	key-positions = <8 8>;			bindings = <&kp ESCAPE >;};
 		
@@ -494,7 +494,7 @@
 			bindings = <
 				&kp R	&kp S	&kp N	&kp I
 				&kp A	&kp O	&kp T	&kp E 
-												&kp SPACE	&kp LC(BACKSPACE)	
+												&kp SPACE	&kp BACKSPACE	
 												
 												&kp UP
 									&kp LEFT	&kp C		&kp RIGHT
