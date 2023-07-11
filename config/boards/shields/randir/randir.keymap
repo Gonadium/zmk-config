@@ -385,9 +385,9 @@
 //		WORD PARTS
 		combo_able			{timeout-ms = <500>;	key-positions = <0 1 4 5 7>;	bindings = <&m_able >;};
 		combo_about			{timeout-ms = <500>;	key-positions = <0 1 4 5 6>;	bindings = <&m_about >;};
-		combo_ack			{timeout-ms = <500>;	key-positions = <3 4 5 7>;		bindings = <&m_ack >;};
+		combo_ack			{timeout-ms = <500>;	key-positions = <3 4 5 7 8>;	bindings = <&m_ack >;};
 		combo_aise			{timeout-ms = <500>;	key-positions = <1 3 4 7 8>;	bindings = <&m_aise >;};
-		combo_ake			{timeout-ms = <500>;	key-positions = <3 4 5 7 8>;	bindings = <&m_ake >;};
+		combo_ake			{timeout-ms = <500>;	key-positions = <3 4 5 7>;		bindings = <&m_ake >;};
 		combo_al			{timeout-ms = <500>;	key-positions = <0 4 5 8>;		bindings = <&m_al >;};
 		combo_all			{timeout-ms = <500>;	key-positions = <0 4 5>;		bindings = <&m_all >;};
 		combo_ally			{timeout-ms = <500>;	key-positions = <2 3 4 5 9>;	bindings = <&m_ally >;};
